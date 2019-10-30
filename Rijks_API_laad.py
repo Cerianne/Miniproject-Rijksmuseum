@@ -4,6 +4,7 @@ import http.client, urllib.parse, json
 # opvragen
 
 def opvragenKunststuk(invoer):
+    """ voor het zoeken op naam van het kunstwerk, geeft tuple met info terug voor verdere verwerking"""
     params = urllib.parse.urlencode({
         'p': '0',
         'ps': '1',
@@ -27,6 +28,8 @@ def opvragenKunststuk(invoer):
 
 
 def imgKunstwerk(invoer):
+    """" geeft de hyperlink naar de gezochte afbeeling terug
+    (heeft opvragenKunststuk nodig voor het maken van het zoek bestand)"""
     params = urllib.parse.urlencode({
         'p': '0',
         'ps': '1',
