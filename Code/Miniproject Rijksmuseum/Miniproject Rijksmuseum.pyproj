@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Galerij.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Miniproject_Rijksmuseum.py" />
+    <Compile Include="Person.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="KunstUitleen.txt" />
