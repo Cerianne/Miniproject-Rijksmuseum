@@ -2,21 +2,22 @@ import json
 from Galerij import Galerij 
 from Person import Person
 
-listOfArt = []
+dict_of_art = {}
 
 # laad de jsons in een python-leesbaar object
 with open('alle_kunststuken.json') as f:
     kunstdata = json.load(f)
 with open('galleries.json') as f:
     galleriedata = json.load(f)
-with open('persoonsgegevens.json') as f:
-    persoondata = json.load(f)
+#with open('persoonsgegevens.json') as f:
+    #persoondata = json.load(f)
 
-# Zet alle kunstvoorwerpen in een lijst
+# Zet alle kunstvoorwerpen in een json
 for kunst in kunstdata:
-    listOfArt.append(kunst['title'])
+    dict_of_art[kunst['title']] = {'ObjectNumber': kunst['objectNumber'], 'Available': True }
 
-print(listOfArt)
+dict_of_art = json.dumps(dict_of_art,indent=2)
+print(dict_of_art)
 
 #Maak wat testclasses aan
 buitenkunst = Galerij('Buitenkunst','Bu1tenKunst!', 'Assensestraat', '13', 'Zwolle')
@@ -30,7 +31,7 @@ klaas = Person('Klaas','klaas@testen.com')
 print(klaas.login('Klaas','banaan'))
 
 with open('KunstUitleen.txt', 'a') as f:
-    f.writelines(listOfArt)
+    f.writelines(dict_of_art)
 
 def is_uitgeleend(naam_kunstwerk):
     with open('KunstUitleen.txt', 'r') as f:
