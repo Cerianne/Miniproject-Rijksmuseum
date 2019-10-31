@@ -1,0 +1,3257 @@
+[
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-2000-17",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-2000-17"
+        },
+        "id": "nl-BK-2000-17",
+        "objectNumber": "BK-2000-17",
+        "title": "Zelfportret",
+        "hasImage": true,
+        "principalOrFirstMaker": "Johan Gregor van der Schardt",
+        "longTitle": "Zelfportret, Johan Gregor van der Schardt, ca. 1573",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "30aba21b-6bb6-4079-bc2f-5f8ddc23aa7e",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 2101,
+            "url": "https://lh6.ggpht.com/xRdPoKg0QHZ2yC_JIrOs3axy7_qHm_OxejFHO3HnseIoQ0fU5Vb5o1clahYSqIgccXpkvCbay2yn8ltN49b8ydIIWNg=s0"
+        },
+        "headerImage": {
+            "guid": "717fb9f6-daf4-4031-8653-b163f6764137",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/E_3F8CLCNl-Mpmj-ra9v9YBpO3MOvmPWwo_9e0YLjBxA5LKv9j8QkL-GKa_oFRw2NPGfl8owGfmzRXMQfUQ3kYbjWFc=s0"
+        },
+        "productionPlaces": [
+            "Neurenberg"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/NG-NM-7687",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/NG-NM-7687"
+        },
+        "id": "nl-NG-NM-7687",
+        "objectNumber": "NG-NM-7687",
+        "title": "Klok en kruithoorn",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Klok en kruithoorn, anoniem, ca. 1590 - ca. 1596",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "05f438f9-f42d-4fec-ad6f-0feb3b08fed2",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 1672,
+            "height": 2500,
+            "url": "https://lh3.ggpht.com/lAJ1wnr_hEOncOfh9eKzvaS8w-fhLLq5yGlzHBctnjgyOzsbuP4cGIqP4q0A-YvnyXBhJi96il6NIZNhRVW-BVg2lW0=s0"
+        },
+        "headerImage": {
+            "guid": "7bf07c8d-4ecb-452d-bdd0-f2197c0d9ba9",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/9c8SEaU_VJWbz1Xw__DPWs_sB4j6Z1bl3ieZRe0-279dePcw8nyxo6g6YYVH_m-prsrtSAsFTVzoIICJ560vKVjj5vQ=s0"
+        },
+        "productionPlaces": [
+            "Nederlanden",
+            "Duitsland",
+            "Frankrijk"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-16676",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-16676"
+        },
+        "id": "nl-BK-16676",
+        "objectNumber": "BK-16676",
+        "title": "Bureau",
+        "hasImage": true,
+        "principalOrFirstMaker": "Abraham Roentgen",
+        "longTitle": "Bureau, Abraham Roentgen, ca. 1758 - ca. 1760",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "6fdcd710-d31d-4de3-8ae6-d8687067ef74",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 3000,
+            "height": 2779,
+            "url": "https://lh4.ggpht.com/FeheHnW8-KOx-prHRCvly8ReF9WKysmPJDEd99EEVDViH1DvYytyDpkjnkeyqqj85WNbrkXFaoFe0jBKB9DdNJApLQ=s0"
+        },
+        "headerImage": {
+            "guid": "deee4f1f-802b-4289-9367-d8926101690c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/1alZFw9qSNw6T81R-SqFeWNurK1J5edyh6SWunRdQC5V63vGjphJp1bcu_Gy9lMAnJEcpturH7jsGZV-7uUKnj1HHz0=s0"
+        },
+        "productionPlaces": [
+            "Neuwied"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-17496",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-17496"
+        },
+        "id": "nl-BK-17496",
+        "objectNumber": "BK-17496",
+        "title": "Blauwe ara",
+        "hasImage": true,
+        "principalOrFirstMaker": "Meissener Porzellan Manufaktur",
+        "longTitle": "Blauwe ara, Meissener Porzellan Manufaktur, 1731",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "fb490c6f-638a-44a8-81d3-ea27a04eae46",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1822,
+            "height": 2500,
+            "url": "https://lh3.ggpht.com/5sc-SGzzgobkHnmnykUi4B1PqMtadoFqXOhYLQmsAI0Mcs_FeCoXT6loaiAUhr_zKvp2iyXntDxVhCzeVwjFulsjzRE=s0"
+        },
+        "headerImage": {
+            "guid": "a355f7dd-d274-4797-9d71-e8f2fb0661ec",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1822,
+            "height": 437,
+            "url": "https://lh3.ggpht.com/uXIT4pKPtocEUVmq6KZNWz4tSygyUZPi7HCCTq4big12nOUFBxJCIBM8vrDwepAM62ABjG-V6JnALRGgxJqWCfBLTQ=s0"
+        },
+        "productionPlaces": [
+            "Meissen",
+            "Meissen",
+            "Meissen"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33"
+        },
+        "id": "nl-BK-AM-33",
+        "objectNumber": "BK-AM-33",
+        "title": "Pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Borman (II), Renier van Thienen",
+        "longTitle": "Pleurants van het praalgraf van Isabella van Bourbon, Jan Borman (II) (toegeschreven aan), Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "5b29ba1c-4c23-49c6-8bb6-2253ddbb560b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1328,
+            "url": "https://lh5.ggpht.com/LE3ggDaLAIwTIOknJm06U2Y_qNffQ0133bWQxnWfDtzi12uWE85MYWtYwvo8eQZx1tc-U-vH_-2ZIoDGYUUrs8YklQ=s0"
+        },
+        "headerImage": {
+            "guid": "16a2d053-448a-435a-8148-a1e758438d5b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2447,
+            "height": 586,
+            "url": "https://lh5.ggpht.com/VI07cMuwb81W4q4UkIMaQaPoV9vJnZDR105Ib4lbchJsKHon4pgdRZMqHuqY4k4Q2NyhnYyIQxZQrPab-VY7JbrgmqaF=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-1976-75",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-1976-75"
+        },
+        "id": "nl-BK-1976-75",
+        "objectNumber": "BK-1976-75",
+        "title": "Kan met deksel",
+        "hasImage": true,
+        "principalOrFirstMaker": "Adam van Vianen (I)",
+        "longTitle": "Kan met deksel, Adam van Vianen (I), 1614",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "b7593955-22ca-4628-89f9-4f11d4f245d2",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 5490,
+            "height": 7485,
+            "url": "https://lh3.googleusercontent.com/Ovyo5Lk0AJGQtOvaFAc3ftMiDwPgLlEhl70T93W7s5QtNm5I33t4vMsA2JJ10i5srucjNOdzjQlvyyCKf_DGKUdEirI=s0"
+        },
+        "headerImage": {
+            "guid": "f1af8da6-16f4-4357-9936-e1ed2a02928c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/0DCTJOH0oyRfYZpAjbrwz4NY0LGbjYzmSwZ6Cu-VXoULvXhjrZOi6ABJUwOOXfF1qhDocyiV2yK-dOAs9XcID2o0Ibc=s0"
+        },
+        "productionPlaces": [
+            "Utrecht"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-4830",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-4830"
+        },
+        "id": "nl-SK-A-4830",
+        "objectNumber": "SK-A-4830",
+        "title": "Stilleven met vergulde bokaal",
+        "hasImage": true,
+        "principalOrFirstMaker": "Willem Claesz. Heda",
+        "longTitle": "Stilleven met vergulde bokaal, Willem Claesz. Heda, 1635",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "d8cc90b8-654b-436f-90f9-5c72ac8a1b30",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1937,
+            "url": "https://lh3.googleusercontent.com/Wi6ss1_NdCoVQLhV34QIB4gNGICcx30gI8kXZ_7I2Nmoudc-LBSdwVYBEJGv7Fly4vsv9HLkCqNwtevaCDuzecKcmOs=s0"
+        },
+        "headerImage": {
+            "guid": "d5db3a03-3d6e-4700-a1cb-c737887a6923",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/LbE_eIzsdOfn2RcYJEYj1sdr2oE1bnaAkss92sDMyXnxUDNqHIsmFZ5dD6Jaex4yXuAVhXnhqScdBc58bdBJq3dE_Xs=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-1451",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-1451"
+        },
+        "id": "nl-SK-A-1451",
+        "objectNumber": "SK-A-1451",
+        "title": "De welvoorziene keuken",
+        "hasImage": true,
+        "principalOrFirstMaker": "Joachim Bueckelaer",
+        "longTitle": "De welvoorziene keuken, Joachim Bueckelaer, 1566",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "1d39e4da-6b58-4a58-ae4f-792d3099c7af",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1717,
+            "url": "https://lh3.googleusercontent.com/SjuKgVllMl-wQ9sRUXch29gQpNg2NDiNSRsPGft0CzbGOIFwZktLNz7_689URZOGxOHFO76B722WD1RibHoBdOm7csga=s0"
+        },
+        "headerImage": {
+            "guid": "a47ecd80-c883-456b-80ef-ab248766b9f4",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/yUbyE1Wy6ZaLrcHG-HYe1fshg4nTV_gAmT523Hj4CWvgr51LWGO0kmArD4WaUvK9fmvuKoRuNP0s3ke_ZWtglf-Kvzpk=s0"
+        },
+        "productionPlaces": [
+            "Antwerpen"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-1505",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-1505"
+        },
+        "id": "nl-SK-A-1505",
+        "objectNumber": "SK-A-1505",
+        "title": "Een molen aan een poldervaart, bekend als \u2018In de maand juli\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Paul Joseph Constantin Gabri\u00ebl",
+        "longTitle": "Een molen aan een poldervaart, bekend als \u2018In de maand juli\u2019, Paul Joseph Constantin Gabri\u00ebl, ca. 1889",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "3e83eca2-5306-4d6d-b499-f86091c81d39",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1767,
+            "height": 2748,
+            "url": "https://lh3.googleusercontent.com/nfJiRConmXf4QR1bK3-E456qIEp2bYtuemyy3P3t7PonntyGJ8iPzFNKJPhZFCSSmJmj2AHePE4V1xl3BOz2NT8mfbNg=s0"
+        },
+        "headerImage": {
+            "guid": "34e94d7f-4d7a-464e-b3f9-eb5532f98c27",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1767,
+            "height": 424,
+            "url": "https://lh3.googleusercontent.com/aBYq1zHv15e7b3QhO20l8calrdCVOljfAjpoZeipAFZi53VhuDD-CFOym2ICOWD10C79flH_nW7rU7XBOQCKq50ozlY=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3841",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3841"
+        },
+        "id": "nl-SK-A-3841",
+        "objectNumber": "SK-A-3841",
+        "title": "De dans om het gouden kalf",
+        "hasImage": true,
+        "principalOrFirstMaker": "Lucas van Leyden",
+        "longTitle": "De dans om het gouden kalf, Lucas van Leyden, ca. 1530",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "d355c71e-804c-4f01-8449-361a1c68053c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 3000,
+            "height": 2255,
+            "url": "https://lh3.googleusercontent.com/BhqE25cpBVQ8tZUZFsWs4W-cf6LRU0fFtUcC7k24OOjW5en5xJ7mNSfIZQKJZncp7M1B6f6PJrbr0H0MivzQzw_fXJU=s0"
+        },
+        "headerImage": {
+            "guid": "451bc6d0-f740-4dd9-8672-fd71b1c9a999",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/bGpwUdwA70gOHVDGXassviRjbFs1QHOgZG7bc3b7HAzf7h3v8B659aEb2t0lsUQWnQRaWA_ajV7eGLcAdwWztA4Qcac=s0"
+        },
+        "productionPlaces": [
+            "Leiden"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-2963",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-2963"
+        },
+        "id": "nl-SK-A-2963",
+        "objectNumber": "SK-A-2963",
+        "title": "Portret van Don Ram\u00f3n Satu\u00e9",
+        "hasImage": true,
+        "principalOrFirstMaker": "Francisco de Goya",
+        "longTitle": "Portret van Don Ram\u00f3n Satu\u00e9, Francisco de Goya, 1823",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "b7e78388-9d9f-4d74-9090-e6529fa572c9",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2131,
+            "height": 2708,
+            "url": "https://lh3.googleusercontent.com/SwwiVAxnwFE_s-k7-bPOZ6jnGfcuVDJoZ-ofLb0Zispb-mJdsfasrE1nTPRcGDPwyEqY0txKpjPcAWaIIltYvvPtDA8=s0"
+        },
+        "headerImage": {
+            "guid": "ddb422b2-6ff0-48dc-92b1-107eccd444cb",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/og1iXSLmAw1SrhMtE_EHWLB46KA5nZWOeTXF_JFltq5tYO7fce59M0tB3kyLDtYez6UX5_Vy2XFdk4vBuD0BKeKnAI0=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-135",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-135"
+        },
+        "id": "nl-SK-A-135",
+        "objectNumber": "SK-A-135",
+        "title": "Een schutter die een berkenmeier vasthoudt, bekend als \u2018De vrolijke drinker\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Frans Hals",
+        "longTitle": "Een schutter die een berkenmeier vasthoudt, bekend als \u2018De vrolijke drinker\u2019, Frans Hals, ca. 1628 - ca. 1630",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "c5161438-4601-41e8-8d7f-d774a29e1bd0",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2254,
+            "height": 2646,
+            "url": "https://lh3.googleusercontent.com/5aw-i_9ekbJ4pPjKVv43OCt71as9teFoMxTDfZb7JlPk7uecGFxzVpP9KM8mbRtzgP8ITC8vHEV4SJYkJkhniWjpcOQ=s0"
+        },
+        "headerImage": {
+            "guid": "5ac15e40-35d6-42cf-8680-006c82cccce2",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/BG7WepGuLaOveaafW-856piZITZ-evvFYEORbL1eQAk8J0dkYkWbWPPqAm4d9XNxse2tofU1sYyl2IkJ2OGV0OaMyxc=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-2",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-2"
+        },
+        "id": "nl-SK-C-2",
+        "objectNumber": "SK-C-2",
+        "title": "Schuttersmaaltijd ter viering van de Vrede van Munster",
+        "hasImage": true,
+        "principalOrFirstMaker": "Bartholomeus van der Helst",
+        "longTitle": "Schuttersmaaltijd ter viering van de Vrede van Munster, Bartholomeus van der Helst, 1648",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "68df1929-68ba-4d9a-becc-e60289f7a7ef",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1034,
+            "url": "https://lh3.googleusercontent.com/kmCDKP1kMN72zB-7CHBOBdCnyU3Z-NW7WIzuN_sIqm5n9xf6lG4oTtfcWsGW8qhbVYuwSDkYlhOglx7z4YaFL8UeFWU=s0"
+        },
+        "headerImage": {
+            "guid": "9dc69178-c089-420e-8181-6cd662c82a2c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/3taYbbzj47-gP_5Kj8gVtgDN2MzPHyGFRY3cYfIY_HCLub8Y-NpLI1oqNK7h-8uS4sMJgK2eihEt5WK1Hy-izt9QiJ4=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-1405",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-1405"
+        },
+        "id": "nl-SK-A-1405",
+        "objectNumber": "SK-A-1405",
+        "title": "Portret van Jacob Cornelisz van Oostsanen",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jacob Cornelisz. van Oostsanen",
+        "longTitle": "Portret van Jacob Cornelisz van Oostsanen, Jacob Cornelisz. van Oostsanen (atelier van), ca. 1533",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "407fe89e-5255-417f-8888-0993bbf255ef",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2097,
+            "height": 2700,
+            "url": "https://lh3.googleusercontent.com/wsOiP3dkzCLPxvJrI22iBU6o0pTx924PhmColiZIS0U-9gxyuAEe0R_zXqBomPXyP5aQerx3BKhyiKxVMf1Z0Y8NjsU=s0"
+        },
+        "headerImage": {
+            "guid": "58e6fb51-e257-4ad2-a911-f1a7cdea0569",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/8eYbcx_7ZUd7gd7YvddcMlDGe8xBvIZ1s7YZpFSLcL6EBzL3IGJAVWC2zTIa-SzYJrPSoQvF_8oR4Ole0I2W-wGstA=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-128",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-128"
+        },
+        "id": "nl-SK-A-128",
+        "objectNumber": "SK-A-128",
+        "title": "De kindermoord in Bethlehem",
+        "hasImage": true,
+        "principalOrFirstMaker": "Cornelis Cornelisz. van Haarlem",
+        "longTitle": "De kindermoord in Bethlehem, Cornelis Cornelisz. van Haarlem, 1590",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "bac842ff-a272-4fb2-8e1e-171e260b8785",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2940,
+            "height": 1998,
+            "url": "https://lh5.ggpht.com/JH0svNh0Pkov_W97MDHw8v2-qKS8AdixVJ-CiPL_xBECNdEyTBkicMvZBsqgW6GQ0TB9moKnfGUYacWQS32rqeoEjA4=s0"
+        },
+        "headerImage": {
+            "guid": "20e8decb-f374-4dd6-ad72-a2cd7cba7e87",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/Lo6NMdc692stDUugE-WamD4COtfL8D4AeTITvL0FpDX-CVk5q18bOOforfzHlwoWTgsauOC8xC82GCuElqmEW-sZ0DY=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-149",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-149"
+        },
+        "id": "nl-SK-C-149",
+        "objectNumber": "SK-C-149",
+        "title": "Een moeder die het haar van haar kind reinigt, bekend als \u2018Moedertaak\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Pieter de Hooch",
+        "longTitle": "Een moeder die het haar van haar kind reinigt, bekend als \u2018Moedertaak\u2019, Pieter de Hooch, ca. 1658 - ca. 1660",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "ef64f571-6fdc-4751-a8ae-ddfcee6f8ae0",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 6901,
+            "height": 6028,
+            "url": "https://lh3.googleusercontent.com/6Vm9nYrTeeYe5wl7lOafEHUnbzNF8KJw3ZbV_cNBr_wQTyHyp1DJxEWEEK3OSuji9XGYx04r15HTVPu850WeFcOd0ZVv=s0"
+        },
+        "headerImage": {
+            "guid": "acdf9034-2cca-4589-9258-2cc306de634c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/8nf3-bOz1F1aQb6zIaA1EkBNE7bntS-NzDKefrYDx0BiV05XXjhwqfHXxZhKfbDmEPfRQ1_5e242wwHsX-sjv9ec9xnF=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-4821",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-4821"
+        },
+        "id": "nl-SK-A-4821",
+        "objectNumber": "SK-A-4821",
+        "title": "Stilleven met kazen",
+        "hasImage": true,
+        "principalOrFirstMaker": "Floris Claesz. van Dijck",
+        "longTitle": "Stilleven met kazen, Floris Claesz. van Dijck, ca. 1615",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "6505fb03-bc6a-4c16-bd15-b50e0669d0d6",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1846,
+            "url": "https://lh3.googleusercontent.com/99G97dfneNVNXVlesr2k54y7sgoVTKUaK1iZdukAJszvZ7jOiukoyKB3Ouo19-pod6QaclptWdbxmSFQkRfJqzWb9ucM=s0"
+        },
+        "headerImage": {
+            "guid": "64e00997-cab1-403f-82f2-6f2e517b192c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/s_EDweQNcx70r4j671BGgM2EzgQ6TrKWGGx-ldQNWjw6Q1NWRyCj8GJdvPKByvxCeNN6A9bWlEtF5FjEprTs_F71Idw=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3148",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3148"
+        },
+        "id": "nl-SK-A-3148",
+        "objectNumber": "SK-A-3148",
+        "title": "Willem van Oranje",
+        "hasImage": true,
+        "principalOrFirstMaker": "Adriaen Thomasz. Key",
+        "longTitle": "Willem van Oranje, Adriaen Thomasz. Key, ca. 1579",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "b7a50951-55b0-4d31-94d7-df21fc41940b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1812,
+            "height": 2500,
+            "url": "https://lh3.googleusercontent.com/_BGOU2j67VwLEzkwwGvykBeqM-AgXmGcnQ1KOHVE_VcWJ8g6MqPXXTJ-P-is99ojsMggoe5tQnwsMrYdg7Y0ae6YNLU=s0"
+        },
+        "headerImage": {
+            "guid": "f820dbdc-0a72-4e4b-8ec6-b9d515a4902d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1812,
+            "height": 435,
+            "url": "https://lh3.googleusercontent.com/76GOj1BwTODm6ucuTUPwQv7X-Xk8N_jYjwPPnae_u-zrhwr98yja4Z1UiXQ2-euB2KUOVdpYIvia0jNNmICD-RVQQjM=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-1718",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-1718"
+        },
+        "id": "nl-SK-A-1718",
+        "objectNumber": "SK-A-1718",
+        "title": "Winterlandschap met schaatsers",
+        "hasImage": true,
+        "principalOrFirstMaker": "Hendrick Avercamp",
+        "longTitle": "Winterlandschap met schaatsers, Hendrick Avercamp, ca. 1608",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "1332eb29-16f1-4e90-b60e-7786b7c24166",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2928,
+            "height": 1691,
+            "url": "https://lh3.googleusercontent.com/LW9vbQVQVGCgWznrQnEXKli4lRYmVFiUdEygCni9jDN2zXhXH4IpsgSD2aROfNoItYBCCzBv08REKrwQdUj3GqO3vdqj=s0"
+        },
+        "headerImage": {
+            "guid": "c3d4cbca-a7c2-4341-812d-78773acdcb6f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/nvNlNnIQ8vH1KICxmce4GDwUYbjtx7s9_ew7jhCN4IhL2h7R3EI6Jtzl6h-bFDR_bKj6t2spn0ypGY1mVuk7HjYiKvU=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-4",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-4"
+        },
+        "id": "nl-SK-A-4",
+        "objectNumber": "SK-A-4",
+        "title": "De bedreigde zwaan",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Asselijn",
+        "longTitle": "De bedreigde zwaan, Jan Asselijn, ca. 1650",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "2f3951aa-bbde-4e10-bbf8-0fcb2c0ed08a",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2916,
+            "height": 2459,
+            "url": "https://lh3.googleusercontent.com/tm1DbZrAP0uBM-OJhLwvKir1Le5LglRF_bvbaNi6m-F_pIyttsWQz040soRY9pWA9PgNEYFA_fBkg_keYixRXCAjz9Q=s0"
+        },
+        "headerImage": {
+            "guid": "8fb60afb-0fb2-496f-ab33-921077fc13df",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/YwB03AMldxZhUOsLJYjKEfz5L15-WpbyvdFVctMbysr8McUY8rePhcgpIU7mJft7SOSqknEjbx55I6LnS2LC13peFUwk=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-1365",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-1365"
+        },
+        "id": "nl-SK-A-1365",
+        "objectNumber": "SK-A-1365",
+        "title": "De zeeslag bij Terheide",
+        "hasImage": true,
+        "principalOrFirstMaker": "Willem van de Velde (I)",
+        "longTitle": "De zeeslag bij Terheide, Willem van de Velde (I), 1657",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "2b014f00-988e-4be3-afe0-2b52fe4f38c2",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2500,
+            "height": 1460,
+            "url": "https://lh5.ggpht.com/NNwpBd1GteTy1QVYsJH64dJh_eb8pORRD5AtB2tfrYRvvFlM5-07MakQOYmYo3h6-09spXyHfJZbjv6ODhPJiStHjQ=s0"
+        },
+        "headerImage": {
+            "guid": "86a466cd-7e20-4995-b300-eb03bca0da5b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/yh5p_3sqR3qIBsaq-tcLcdWAJuXtBLFh48dkVyhoxriHtpf46QCXkQt_xYlAnfw8Nt9DANY8MZgj-8lE4u5R7lEhdg=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3064",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3064"
+        },
+        "id": "nl-SK-A-3064",
+        "objectNumber": "SK-A-3064",
+        "title": "Portret van een meisje in het blauw",
+        "hasImage": true,
+        "principalOrFirstMaker": "Johannes Cornelisz. Verspronck",
+        "longTitle": "Portret van een meisje in het blauw, Johannes Cornelisz. Verspronck, 1641",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "bac9e153-fc59-4823-b4d4-3a7bc80ba5ac",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 5656,
+            "height": 6990,
+            "url": "https://lh3.googleusercontent.com/hpl3FiKJycePxIROjWZLZXbodT5uV-EsBw9dlux7NFmhbWAX2xtHQZmlIqb9yxhu-yvs28KQsw1ulzjL8qdiRhPmDgc=s0"
+        },
+        "headerImage": {
+            "guid": "732fc21c-7ac1-44eb-9acf-c7f8d1e023bb",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/q6c7fvHDDIIFukWHSWf1d3kZcENCwUd3zouD2dHt2rZM1fVrK-SRbQXUtrmwLqFM6PREGuy5ajK9bzo0QgvBpqjJoFQ=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-447",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-447"
+        },
+        "id": "nl-SK-A-447",
+        "objectNumber": "SK-A-447",
+        "title": "De zielenvisserij",
+        "hasImage": true,
+        "principalOrFirstMaker": "Adriaen Pietersz. van de Venne",
+        "longTitle": "De zielenvisserij, Adriaen Pietersz. van de Venne, 1614",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "39794bbb-2f9b-4fb5-9562-dad51e960d62",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1306,
+            "url": "https://lh3.googleusercontent.com/hW-VHwzu0W0pvuTVVnx2vSCnO__rILy0Auxqz8L4TWVC0VWWaxrSGRDqGIBqKdl5nIINoxOlkFtlTNQQdsP3eOOhXw=s0"
+        },
+        "headerImage": {
+            "guid": "dd63c518-2e64-495e-824f-440f1b9fb5b0",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/G0DRv44S_E9Q4C9pdYVxp26v41LHjNbwEqcMa3JHWbhPsOCGtH8ZjXp6v4iGVzMUdNC2VYWn_DKuHKPPoqHAnB9XQDR6=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-NM-1010",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-NM-1010"
+        },
+        "id": "nl-BK-NM-1010",
+        "objectNumber": "BK-NM-1010",
+        "title": "Poppenhuis van Petronella Oortman",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Poppenhuis van Petronella Oortman, anoniem, ca. 1686 - ca. 1710",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "8c3131da-1405-426f-9b23-5671a93920af",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 2266,
+            "url": "https://lh3.ggpht.com/OIaBDlLOhgpAQHGdfYfIh0ygXRqgBNR-tW7se4OTwOtD6dsr6xLAmp8u_pfsqJ-0EqB_wbCF_0mvCl979lWxfFIyFQQ=s0"
+        },
+        "headerImage": {
+            "guid": "fde471c0-800c-4bea-b28e-a8523a1b643f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.ggpht.com/QARSFMHdk59lhi0GnyZzxvqkt3rMLpYrBI8dXqEVjnbLgcb4PudxSzYaLxju5Juo4CzwwSC2wlq2ZDUMXw54tIhgmF0=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-1963-101",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-1963-101"
+        },
+        "id": "nl-BK-1963-101",
+        "objectNumber": "BK-1963-101",
+        "title": "Zittende Amor",
+        "hasImage": true,
+        "principalOrFirstMaker": "\u00c9tienne-Maurice Falconet",
+        "longTitle": "Zittende Amor, \u00c9tienne-Maurice Falconet, 1757",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "f3578a1c-8560-40cc-b00e-4846d9d14a8c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1869,
+            "height": 2500,
+            "url": "https://lh3.googleusercontent.com/i8S7we9zDW-AqUbZvE91O4bqsgVI_MamJhChLz6lE55MIn_kAjrYNoudrM-YEKjZTLUPyXVBgi__m6n1MMWmcbsHMy8=s0"
+        },
+        "headerImage": {
+            "guid": "fa6749fb-cc71-41ca-8537-7b585bbe8365",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1869,
+            "height": 448,
+            "url": "https://lh3.googleusercontent.com/vIYU9uO2qTjc_IfRZLFBlvyQ5Vnou12aX44h8FzHgtzeWZTcRnzAE63bBQ1SCmEvTthf2d2XFzOTTRhhbQHmS9gL8WI=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-NM-13150",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-NM-13150"
+        },
+        "id": "nl-BK-NM-13150",
+        "objectNumber": "BK-NM-13150",
+        "title": "Portret van Michiel de Ruyter",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rombout Verhulst",
+        "longTitle": "Portret van Michiel de Ruyter, Rombout Verhulst, 1677 - 1681",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "dfb56cbe-6e82-4f6f-aa7a-b560ed91f07f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2083,
+            "height": 2500,
+            "url": "https://lh3.ggpht.com/7eeRiDQLguCwPA7159-wn9Jd3AhGzmFzra0kda7SX5Vm1TqTW3sLf6UksceWq6MUJmrUSxVC5bCviXAMX1S0qd0lUi0=s0"
+        },
+        "headerImage": {
+            "guid": "c8b8814f-6a3f-429d-a2fd-2d0b2380b278",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/7MNqSPsON_nuBu8FTQ8E-NpALOtbUgfEoyrJV7efW86Pxo_SuueubQmqy46jtWZYU9SiHLohb5elAoRbf9KvJ4cuJg=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-1796",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-1796"
+        },
+        "id": "nl-SK-A-1796",
+        "objectNumber": "SK-A-1796",
+        "title": "De buitenpartij",
+        "hasImage": true,
+        "principalOrFirstMaker": "Dirck Hals",
+        "longTitle": "De buitenpartij, Dirck Hals, 1627",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "b712d938-3b1f-4851-bf85-0a941a18920e",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2946,
+            "height": 1656,
+            "url": "https://lh3.googleusercontent.com/2kjBth_lI3Wir9x_rKl95XRj0BUIiGUm-DmesBhAW3IXoHwfRR3uECU3TF9gR4nUhV9C34vW3yodSi_4GrSyBJTd5Q=s0"
+        },
+        "headerImage": {
+            "guid": "2e6ea4f4-6c98-44fc-b9ba-ee3bae2d7c3b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/weBy4-m2p1yBWPt_yMgPzgyC-r-2tqO8IAbZqU1C29u2Q_UPcxZfPM2mS5DGUYjKNXG0d4L9HecAG5RCrbcrwGT6baoU=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-2815",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-2815"
+        },
+        "id": "nl-SK-A-2815",
+        "objectNumber": "SK-A-2815",
+        "title": "De zeven werken van barmhartigheid",
+        "hasImage": true,
+        "principalOrFirstMaker": "Meester van Alkmaar",
+        "longTitle": "De zeven werken van barmhartigheid, Meester van Alkmaar, 1504",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "dbb93884-cd17-4c10-a32e-2fb0aa9bdce5",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 635,
+            "url": "https://lh3.googleusercontent.com/PKiHHjb5ov-6RQm4WjTmQL7gQsiqz-jTgy6aJoUfXFPB-FPJF2XMcgjdpf0rMfPtQoePma2oYkAiN83RDwlyU34phg=s0"
+        },
+        "headerImage": {
+            "guid": "8b08174c-b8f1-4a40-a8f8-20d98d426183",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/lEPMS16z9Y8aEsbUYI-zE-rTFqKa8AE63loPpzSkZWFFJ8RSxA7BKvgGsn3yOvC6udiX61dF4_smw3SG0-yfksfQ8YDs=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-4118",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-4118"
+        },
+        "id": "nl-SK-A-4118",
+        "objectNumber": "SK-A-4118",
+        "title": "Rivierlandschap met ruiters",
+        "hasImage": true,
+        "principalOrFirstMaker": "Aelbert Cuyp",
+        "longTitle": "Rivierlandschap met ruiters, Aelbert Cuyp, 1653 - 1657",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "d64bd255-896f-46fc-8258-f014a71478ce",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1402,
+            "url": "https://lh3.googleusercontent.com/z4na-N97cBG8sDS7qza0JUbMoGYcmHAP6oc_gyotyiWU3pTJpECBtNqdLJqxLl6ALWe5WBy84LpTLgrydrLR-8hwvg=s0"
+        },
+        "headerImage": {
+            "guid": "2b1afde2-9dca-4a9d-9281-aa4995b46242",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/xGMPQEEH2MgswJSgjcofk8zkFqvIXLmC9pWJlG87ZxNHL1vhw4rfI0whW-opfygoCqlWB24ldFI27dP5M0sPF9KZIhq8=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3262",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3262"
+        },
+        "id": "nl-SK-A-3262",
+        "objectNumber": "SK-A-3262",
+        "title": "Zelfportret",
+        "hasImage": true,
+        "principalOrFirstMaker": "Vincent van Gogh",
+        "longTitle": "Zelfportret, Vincent van Gogh, 1887",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "b9d83b68-40b3-42cf-8d5e-959201ddf4bf",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2034,
+            "height": 2562,
+            "url": "https://lh3.googleusercontent.com/Ckjq-HkB2XhEsbuMsei0MR5fLTODfkcXY8qQTG-XLHVxE0jLO9DnSYaVE8n1kCrcm9AMKzoWB2w03LrY0v7eoj5hYw=s0"
+        },
+        "headerImage": {
+            "guid": "87fe6026-45a1-41d2-a126-9e330eda65a9",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/R_c2Y-3aFaNIts1RjQbymqwVLGBpibpSg5kq4YqWVtIP6wEG3YYMQX-5kgTfj2ccooBGQz3HQH-xMH_3srmpFiRqbw=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-133",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-133"
+        },
+        "id": "nl-SK-A-133",
+        "objectNumber": "SK-A-133",
+        "title": "Portret van een stel, waarschijnlijk Isaac Abrahamsz Massa en Beatrix van der Laen",
+        "hasImage": true,
+        "principalOrFirstMaker": "Frans Hals",
+        "longTitle": "Portret van een stel, waarschijnlijk Isaac Abrahamsz Massa en Beatrix van der Laen, Frans Hals, ca. 1622",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "ec59e1a4-ac15-45b6-8690-9a6f46e33d47",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2988,
+            "height": 2531,
+            "url": "https://lh3.googleusercontent.com/WJyYFvVf8ouRjhS-tVrP3w72w4nkqIsKvtBix7rZ3DHbpjsHmEF_eW689qEpIUhWfl7C-hqz56GE2pXHW4ewIIcrLlud=s0"
+        },
+        "headerImage": {
+            "guid": "546e2f70-3752-4f8c-be38-927c773df119",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/5Lvq1mQoon0bL_ZP4rFQ4om_DC19DFu5RybbysHMonMFpK2_0RX2VjQnqYoUjfB0hMbKP9XmWOXsPWGSfuUlASIjkWo=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3584",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3584"
+        },
+        "id": "nl-SK-A-3584",
+        "objectNumber": "SK-A-3584",
+        "title": "Meisje in witte kimono",
+        "hasImage": true,
+        "principalOrFirstMaker": "George Hendrik Breitner",
+        "longTitle": "Meisje in witte kimono, George Hendrik Breitner, 1894",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "5dea6805-8cf3-4d6e-b334-89adfdd6f341",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2535,
+            "height": 2622,
+            "url": "https://lh3.googleusercontent.com/0bgOiMrBM2GuhW_pNeQW711GuB3kD7Gq7AILGHaJGeWKa1Fu1hUJGpOjvSpiP_XpgRlC4jVmH0Z1233PEPMJTfNRR7Q=s0"
+        },
+        "headerImage": {
+            "guid": "ca275add-7098-4726-94df-4743cc5f1ef2",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/DbySiXwDdYlhl0r-fmM1CdLfro5aC1S0KdapBqWJyboOCgWYO1v50-8B2xWRRbqrv8rqKDyLsojkPv0h2-XKjmJbLyoV=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-404",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-404"
+        },
+        "id": "nl-SK-A-404",
+        "objectNumber": "SK-A-404",
+        "title": "Galante conversatie, bekend als \u2018De vaderlijke vermaning\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Gerard ter Borch (II)",
+        "longTitle": "Galante conversatie, bekend als \u2018De vaderlijke vermaning\u2019, Gerard ter Borch (II), ca. 1654",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "0a412739-59a2-47e5-8ba9-0a5188cec553",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2593,
+            "height": 2514,
+            "url": "https://lh3.googleusercontent.com/FNNTrTASiUR0f49UVUY5bisIM-3RlAbf_AmktgnU_4ou1ZG0juh3pMT1-xpQmtN1R8At4Gq9B4ioSSi4TVrgbCZsmtY=s0"
+        },
+        "headerImage": {
+            "guid": "48d5a82a-915f-4e94-af3d-78437355c255",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/bBM9yfaUXXZQF7mfnEwoCB_fv-tviTZfiZ3zucZlCH6nEHy9PnWJ2cNmAnad4hWQcJEpCJ0PpAlCvc3RKJ6YlPG_zZl2=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-2860",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-2860"
+        },
+        "id": "nl-SK-A-2860",
+        "objectNumber": "SK-A-2860",
+        "title": "Gezicht op huizen in Delft, bekend als \u2018Het straatje\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Johannes Vermeer",
+        "longTitle": "Gezicht op huizen in Delft, bekend als \u2018Het straatje\u2019, Johannes Vermeer, ca. 1658",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "989e14bf-395a-4325-b516-29439d4b320d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2181,
+            "height": 2682,
+            "url": "https://lh3.googleusercontent.com/QjRm4UQbUvfY3H8MOPYjQKvMWWMIITAI3jVto147znHC3_dEEYKJF_UQsj7FZ59VxEzxaauQ98bUAwFLSfLW3Syiza3Q=s0"
+        },
+        "headerImage": {
+            "guid": "746a0cae-e0c6-4f0a-b3e5-f45864a51492",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/CeqyB-NdzXKqbEubUoNdQYTOzIgO5c06uk7O0GAWvZVkug6S2KDc7hLHEF6iZksihA7sr-FjqZ2QJBB6JS3cI4K-eno=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-109",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-109"
+        },
+        "id": "nl-SK-C-109",
+        "objectNumber": "SK-C-109",
+        "title": "Italiaans landschap met tekenaar",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Both",
+        "longTitle": "Italiaans landschap met tekenaar, Jan Both, ca. 1650 - ca. 1652",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "d13f2a45-f502-419e-907e-758d58e01e7f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2852,
+            "height": 2228,
+            "url": "https://lh3.googleusercontent.com/0G5nN9xiSRIj6SJ0fi2ifDbcDST3QOFafjVXUSPNb5hqnr_gF_DKJdO1QiGcQ97V3y9zon-n1GSGL3cRPORXE3UzDIsk=s0"
+        },
+        "headerImage": {
+            "guid": "cf74d0e5-fc47-4813-b889-173670d4d0fe",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/lBy49rGo33QTd4HFQlnoA4m4n8prwOe6ynhZyD49ECM2LWUmfciyFlPesmZlpCg6YnyAVMslg12aCJhdPj63i_Gf6Q=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-2099",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-2099"
+        },
+        "id": "nl-SK-A-2099",
+        "objectNumber": "SK-A-2099",
+        "title": "Stilleven met asperges",
+        "hasImage": true,
+        "principalOrFirstMaker": "Adriaen Coorte",
+        "longTitle": "Stilleven met asperges, Adriaen Coorte, 1697",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "d0c3b966-dc1d-4845-bafd-feafcc2a081d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2072,
+            "height": 2564,
+            "url": "https://lh3.googleusercontent.com/qEnlrp5MyHgLIVvrQR3HYtMBhQaLsxCmhBB15DCxX07l_rAvKqjKAXgCkgigYYxA2hGls9riG6Xfn_K_V5_GMfd_0bE=s0"
+        },
+        "headerImage": {
+            "guid": "a3af4b53-154c-452d-96c6-5bb4528fa455",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/hEyoYfjyCji2WjliEMiMBJvrrH0lyHZLCS4jozSfWQBV8ts8jOWojggpLfX8bJ666XPtuT5Yovm7M9VQSBEIRa_ASY0=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-180",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-180"
+        },
+        "id": "nl-SK-A-180",
+        "objectNumber": "SK-A-180",
+        "title": "Een vrolijke vioolspeler",
+        "hasImage": true,
+        "principalOrFirstMaker": "Gerard van Honthorst",
+        "longTitle": "Een vrolijke vioolspeler, Gerard van Honthorst, 1623",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "868fdc90-94e1-432c-92aa-bc328a866119",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2032,
+            "height": 2500,
+            "url": "https://lh3.googleusercontent.com/V3sjNgCA_Jssjm0sTKaPZeOwCv_vAPpjllrAF-yAB8UkqIlc6UX_jxJmxH_axVHTHxlK1E7Slecg8K5bIvSbDlw0zg=s0"
+        },
+        "headerImage": {
+            "guid": "03e0bed7-56ce-48f4-828a-6a3c96f578f1",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/lqio6vHMqpMaVBeWBHUxhqpgnyYsTG24Xf-6o2JzuRscjt5TphP3DKoDX-M8VnrDAtnyEI_ROpnSVvttlGWba_3pfwo=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-2382",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-2382"
+        },
+        "id": "nl-SK-A-2382",
+        "objectNumber": "SK-A-2382",
+        "title": "Kinderen der zee",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jozef Isra\u00ebls",
+        "longTitle": "Kinderen der zee, Jozef Isra\u00ebls, 1872",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "eb216c2a-7871-4cf3-949b-56df25d3db82",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2903,
+            "height": 1483,
+            "url": "https://lh3.googleusercontent.com/BMvxPb9RF9F-qz68PAIIrROTp7G352oNEzZWmmT-H1YXSgf2Id33oQBssFYnPL52KwiyFgYY1pSInpEVrhrx1OViFQ=s0"
+        },
+        "headerImage": {
+            "guid": "ac7d52c2-facc-49b2-b55f-9deea1b2e3a8",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/UFZJ1iyf6N7eVckH5XEbXtowoHqnBp5c4uGPRQ4BxBTCzqTILHCJ0N70hRDrM2QogBIldQ_MQBqaLRFSyXI-k3udNZuY=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/AK-MAK-240",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/AK-MAK-240"
+        },
+        "id": "nl-AK-MAK-240",
+        "objectNumber": "AK-MAK-240",
+        "title": "De bodhisattva Manjushri",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "De bodhisattva Manjushri, anoniem, ca. 800 - ca. 900",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "dba697d4-a378-4143-9669-0d37101cdb2c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2247,
+            "height": 3000,
+            "url": "https://lh3.ggpht.com/dEcAzU3879u6p7WXKY9L-BUuOInJYOsp6J_C-2v-gcYHNZVrkz8ZbCb6fL4g6WH4lBaTdNpOOKiMDgJraCo3hX2pmQ=s0"
+        },
+        "headerImage": {
+            "guid": "4ea367f5-7f09-4a5f-9ea8-50c3198603f7",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh5.ggpht.com/9fwHHCvAO_6DcA7a2-RShCbnxj_5cOGsEuTV1_qfDB_l9PeFMXwBG6hrdmEjj7OY-J4Zdfp2WLJPuyupo_oRnR1EkIY=s0"
+        },
+        "productionPlaces": [
+            "Candi Plaosan"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-175",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-175"
+        },
+        "id": "nl-SK-A-175",
+        "objectNumber": "SK-A-175",
+        "title": "Een pelikaan en ander gevogelte bij een waterbassin, bekend als \u2018Het drijvend veertje\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Melchior d'Hondecoeter",
+        "longTitle": "Een pelikaan en ander gevogelte bij een waterbassin, bekend als \u2018Het drijvend veertje\u2019, Melchior d'Hondecoeter, ca. 1680",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "6753e473-6fea-4c5c-8014-454ba4c393ec",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2388,
+            "height": 2640,
+            "url": "https://lh3.googleusercontent.com/3UIOtn2DLhEC4W92V0_pIdChloiYyzpXvehK0BYaM3NHJR5zWhcA7uXlcNX_mCAt9xBh3gaHo3pDuriYzYm3uEDbeUEr=s0"
+        },
+        "headerImage": {
+            "guid": "c3a7ea42-4186-45d4-bdab-4a0b4315a91a",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/eCpzK6ikH0uo2ntqgYX0cg49M9lInJk8I3jrWt8xJszJoDfrqz5L4N3xRaWPA4X6CHn6G8xfGc1seAK-16I8oKdRTa58=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-4100",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-4100"
+        },
+        "id": "nl-SK-A-4100",
+        "objectNumber": "SK-A-4100",
+        "title": "De kunstgalerij van Jan Gildemeester Jansz",
+        "hasImage": true,
+        "principalOrFirstMaker": "Adriaan de Lelie",
+        "longTitle": "De kunstgalerij van Jan Gildemeester Jansz, Adriaan de Lelie, 1794 - 1795",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "c3a05f6b-4b71-4cfd-ab8d-3c7d79e08ea1",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2500,
+            "height": 1865,
+            "url": "https://lh3.googleusercontent.com/vkoS9jmZLZWuWH1LNIG3eJUVI6W7XqOUKmFf_lcuB4m1nJydWPXZGggi3XGwmirNj1wLdiO7sH6x5fJ60XJnH2expg=s0"
+        },
+        "headerImage": {
+            "guid": "36b54f3a-46a6-4c24-b804-ce2b5b86f45a",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/YjKvOkkf3epcceNunYHLeCrDFYNfADyeWnx_TkKyF1tzWPhotNzQaLztgeyfujmhgLG1LSBUv_oOtGL0bTWmgYxBEw=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3059",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3059"
+        },
+        "id": "nl-SK-A-3059",
+        "objectNumber": "SK-A-3059",
+        "title": "Het zieke kind",
+        "hasImage": true,
+        "principalOrFirstMaker": "Gabri\u00ebl Metsu",
+        "longTitle": "Het zieke kind, Gabri\u00ebl Metsu, ca. 1664 - ca. 1666",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "2dd9705f-bdf0-4304-a8f7-02589edf81d6",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2145,
+            "height": 2636,
+            "url": "https://lh3.googleusercontent.com/SCp0xV3Rwxh3ipnuSnbEQR_uGrHlsvHXlLD-5kVSjAE7WPWiribDB77_LcJETu4EydCC_jMuhsgjz4maHzY_t-xeiw=s0"
+        },
+        "headerImage": {
+            "guid": "fca95581-cccc-4adf-9104-ad16f2908329",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/DPf2gg2g_QYo5j3G2fAXzCC_li5wvQ50VPlciWc6-9VbVmYiQdLL1klUg98u0Pnxbpc3eQIbR1L7t5Dw7bLY7nKtRNQ=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-KOG-656",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-KOG-656"
+        },
+        "id": "nl-BK-KOG-656",
+        "objectNumber": "BK-KOG-656",
+        "title": "Kast van een schutterij",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Kast van een schutterij, anoniem, ca. 1520 - ca. 1530",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "d8859bc4-e2e6-4283-9997-d591f3630776",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1899,
+            "height": 2500,
+            "url": "https://lh6.ggpht.com/y9FmgZB4UrtrBz5hmXjWwIKSgXs_UcARxiYGtRJEeAfZ8kD1BQ_xORtEXcjXLjxwWYskHt7fBX7KHe7RX9ZB39IMpQ=s0"
+        },
+        "headerImage": {
+            "guid": "a3aaae33-0dd7-4f96-a91f-682753799bde",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1919,
+            "height": 460,
+            "url": "https://lh5.ggpht.com/QNF3g3vJCeTCAltS9sbBODpYZTS5Vx_cf7uhlyH70hYiFRaOFMein2BtG8pydxaj4dtAMLTYr0zGxaKhclD8Fs4xOsTF=s0"
+        },
+        "productionPlaces": [
+            "Alkmaar"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/NG-KOG-1208",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/NG-KOG-1208"
+        },
+        "id": "nl-NG-KOG-1208",
+        "objectNumber": "NG-KOG-1208",
+        "title": "Boekenkist van Hugo de Groot",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Boekenkist van Hugo de Groot, anoniem, ca. 1600 - ca. 1615",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "ca37e593-a8d7-4ddd-8d69-1360a343e8fb",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2500,
+            "height": 1875,
+            "url": "https://lh6.ggpht.com/2EO0M6YvvVy1QQ3VVHsWXuTWOomEJwp26G9bxRa3uE-lp66MNlhU-Bbi9mEcDDPuCMFXH3ZGaaTTHwpcORo6qO1EwrAX=s0"
+        },
+        "headerImage": {
+            "guid": "000fd881-7317-426f-9604-3ff9cd008129",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/7wvv1JiT7ifUlpt_9ecG9ebDacjsmIugkC_V6EhQgd0rP05Nn7Src5QoK3p2_XVo6QBdZPrIjBoEldE4mvNV4jCvKzbK=s0"
+        },
+        "productionPlaces": [
+            "Noordelijke Nederlanden"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-NM-3888",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-NM-3888"
+        },
+        "id": "nl-BK-NM-3888",
+        "objectNumber": "BK-NM-3888",
+        "title": "Maria met het Christuskind",
+        "hasImage": true,
+        "principalOrFirstMaker": "Adriaen van Wesel",
+        "longTitle": "Maria met het Christuskind, Adriaen van Wesel, ca. 1470 - ca. 1480",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "489a26be-8691-42a2-9102-3cb1954846ce",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1297,
+            "height": 2500,
+            "url": "https://lh6.ggpht.com/w51qt-qW6i-7WJL4SJzFLw1JQAa0lx0Kem6vI0TgQv9fFVDzLaq70UV3SmAQfdN4AhcnnspmU7eG1zaQxOu_z2z5caY=s0"
+        },
+        "headerImage": {
+            "guid": "62456a1e-566c-4ad9-b8fb-310b470def6d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1297,
+            "height": 311,
+            "url": "https://lh4.ggpht.com/ZIgmR-zGjDdnoVaw8OgEA0mGIdwTH41FvcpD4QXWisYjD9C18FCsO5JCFWYtvcbziYlJT-CYNUp0NqBx68VTT_cgLcM=s0"
+        },
+        "productionPlaces": [
+            "Utrecht"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-I",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-I"
+        },
+        "id": "nl-BK-AM-33-I",
+        "objectNumber": "BK-AM-33-I",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "9f99bd1b-a2cc-4501-96ab-4be00fdee87c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh5.ggpht.com/XfGMlfAXKb8qHOLKbcluQCUHbW24UxS5vhE6-pY77EMN0MDLgW3bCODlF1QpChtqzXW0DGI3za1WdVwE38QuIrg-CYi0=s0"
+        },
+        "headerImage": {
+            "guid": "f332a9c8-eeef-4117-9d8c-8865fe771874",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/x1Ewi3EOvGk0SiqPbvTJVPA5qhQnEchBW-pVta29-nd8QSJV1A9seZIaynmIHXA5_zLA2EBrs3sYptY6dYWvWKgX0T87=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-H",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-H"
+        },
+        "id": "nl-BK-AM-33-H",
+        "objectNumber": "BK-AM-33-H",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "661b6b6c-0f6d-437e-b786-3c9332036590",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh3.ggpht.com/hWw39CO9_f8Layr6PT_REdtl_nJflH6L_o8jeF3XxmAquB2PKQhWK2kKRCd16TUvhdTl1UrfFC0-Wn1es9LxfdtcZQ=s0"
+        },
+        "headerImage": {
+            "guid": "2fc2cf6d-83ac-4e37-a8d1-a6bed8e7bc60",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.ggpht.com/wHOEUZMhx__a79FijUOC0J4NiBFh-9Dzw-gNm7CpDnGL3FYEQnSebHVTOzV-8urZ4vV9HPxxetL9wvKikBhHM2vpoQ=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-B",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-B"
+        },
+        "id": "nl-BK-AM-33-B",
+        "objectNumber": "BK-AM-33-B",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "6e35f2ad-d28f-4ef8-b18a-f18b2df22651",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh6.ggpht.com/NLXTn4xmW5qcQQP7nL_BM9eOzXLdrKtcFUQdeLSWXHrpjMBuF3XjGV7sulajkXRYrr9G-qZdMcH3Q0fIso_jXxcjzAU=s0"
+        },
+        "headerImage": {
+            "guid": "620d0271-2b3a-4f57-ba81-ef48c10b8369",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/CNbm55pxW59uOkqjXf9jaTL08JjzEeACCuCrnMOe-rG3KmyC6ui1PdBej6fT37CUER_aWJZMNT4c30mzc3G2H_7jPo0M=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-NM-88",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-NM-88"
+        },
+        "id": "nl-BK-NM-88",
+        "objectNumber": "BK-NM-88",
+        "title": "De ontmoeting van Joachim en Anna",
+        "hasImage": true,
+        "principalOrFirstMaker": "Meester van Joachim en Anna",
+        "longTitle": "De ontmoeting van Joachim en Anna, Meester van Joachim en Anna, ca. 1470",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "05ce2b20-89d6-4211-adb3-53343285f609",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1742,
+            "height": 2500,
+            "url": "https://lh4.ggpht.com/1xfViC0J7t1dY50WCjTTZvLVsKTuSpHGcsCeWOzqa_sR76LoZh3zeRyN0D277PJbc9uKCiPfsEE5aBse70Ohbb8iWA=s0"
+        },
+        "headerImage": {
+            "guid": "882b6df7-bdee-42d2-8386-0cd69afb0f07",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1919,
+            "height": 460,
+            "url": "https://lh3.ggpht.com/Y8VAii3b-PGqya8nVGzC0esfQetb1wAloaATfkJUIDSHBEBZNfT7B9clQlFN_rrcCi6ueMN8pmCzZSkAHzjZys3Nspo=s0"
+        },
+        "productionPlaces": [
+            "Brabant",
+            "? Breda"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-2344",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-2344"
+        },
+        "id": "nl-SK-A-2344",
+        "objectNumber": "SK-A-2344",
+        "title": "Het melkmeisje",
+        "hasImage": true,
+        "principalOrFirstMaker": "Johannes Vermeer",
+        "longTitle": "Het melkmeisje, Johannes Vermeer, ca. 1660",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "e4e3005c-dd9e-4db6-b466-50b17a9a52cd",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2261,
+            "height": 2548,
+            "url": "https://lh3.googleusercontent.com/cRtF3WdYfRQEraAcQz8dWDJOq3XsRX-h244rOw6zwkHtxy7NHjJOany7u4I2EG_uMAfNwBLHkFyLMENzpmfBTSYXIH_F=s0"
+        },
+        "headerImage": {
+            "guid": "bef0795c-923a-463f-aab8-6a9cb24da44b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/00OIrTLK6NA8Z7t276hDnKHTsdk3FCTTAy1-XTmnDbDm4gL1mSB1BerazQHyXxnRSWUso9I4YF4aiXluCqaV3Yus3g=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-799",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-799"
+        },
+        "id": "nl-SK-A-799",
+        "objectNumber": "SK-A-799",
+        "title": "Stilleven met bloemen",
+        "hasImage": true,
+        "principalOrFirstMaker": "Hans Bollongier",
+        "longTitle": "Stilleven met bloemen, Hans Bollongier, 1639",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "f7f5f3ab-ca69-4162-a977-aa02b28c2856",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1904,
+            "height": 2424,
+            "url": "https://lh3.googleusercontent.com/D2IPnfkJPa8cPSuhehu5e2aeteqzK5Zb0OzL9-zA4_FHBQHrD8RLT_3XZ9FDYtE64e_cdqTxZF_VfG4MsPcKr90FV6E=s0"
+        },
+        "headerImage": {
+            "guid": "d2923a9d-6d5c-46d6-8c7e-27b93438fcb0",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1904,
+            "height": 457,
+            "url": "https://lh3.googleusercontent.com/tkGc-gbt4GQRPqYPkc8YVdfsPon-4GNvriWSYseDA-xEG-692S4WvJ22Lg85_97qel_VEniddM1ERrvQwgTWZpk5SVw=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/NG-444",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/NG-444"
+        },
+        "id": "nl-NG-444",
+        "objectNumber": "NG-444",
+        "title": "Kist met negen flessen",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Kist met negen flessen, anoniem, ca. 1680 - ca. 1700",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "4aea74b3-682a-482d-8cad-f4ea0b78abd5",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 2141,
+            "url": "https://lh4.ggpht.com/zj4XExq5RGqvpQZO-gH2HsJ10eSJeGDrbuz4WSBsU0G_eSJGGVrseRSHUJFD2UouStnTSscr70Xz4M7GLWtBrmU3Zw=s0"
+        },
+        "headerImage": {
+            "guid": "0b2a1edf-05e9-47be-90ea-91ce24136dd0",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh5.ggpht.com/vA6oNf_cf5kcoK2m_7B8QcbhRXIiAA9gXDypHa-cFkXSnRL3vtV2XxRsLhm3IqiAOOBivYuQPF0H1uj4SRuUwkyFH-k=s0"
+        },
+        "productionPlaces": [
+            "Japan",
+            "Batavia"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-1975-81",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-1975-81"
+        },
+        "id": "nl-BK-1975-81",
+        "objectNumber": "BK-1975-81",
+        "title": "Kast",
+        "hasImage": true,
+        "principalOrFirstMaker": "Herman Doomer",
+        "longTitle": "Kast, Herman Doomer, ca. 1635 - ca. 1645",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "3134064e-2449-4b00-97a3-3bb7471e8b69",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2026,
+            "height": 2500,
+            "url": "https://lh3.googleusercontent.com/tGI4dOAfJLBbewwspzXpUnSZxEKFACv9Y3FHqAxQUtN2p4AXt2MS9oFv6eJyIBtr7gvzmv58vSitMFVeHY0TGsfOfDN2=s0"
+        },
+        "headerImage": {
+            "guid": "fe1d23fe-b4e3-4b27-9c1d-ac40456e928e",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/H29bm6OMJSpiuVUKfoIZXDjAjvB40NywTXP7bYZZecT5cbRWDXQQtj-7ZZfaJ4-H4s30naG928J1Fnf0fZ7ALkPPgg=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-1983-15",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-1983-15"
+        },
+        "id": "nl-BK-1983-15",
+        "objectNumber": "BK-1983-15",
+        "title": "Roemer met een gedicht op Constantijn Huygens",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Roemer met een gedicht op Constantijn Huygens, anoniem, 1619",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "123b1009-a6ee-4274-ba64-448b729038ca",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2152,
+            "height": 2500,
+            "url": "https://lh3.googleusercontent.com/iHNTtwRZU6MW_7mG6mJKsLD2oHwLLEg7osTsXJv5LrVwa24N-9K4ScGMGNtRQoc9WrVERVLk6fxbZyvanofH05xXPA=s0"
+        },
+        "headerImage": {
+            "guid": "b71cb39a-a16a-4dbe-aa13-231117fea771",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/UEnB_t9Ayrm3EX0UIpv6mipCoIhkLtGYk5SkWdBU6uR3m0EHszQAqDpz2PRScgBtHonXHuDMVeh1PqM7SlgkpsGjYiw=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-17040-A",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-17040-A"
+        },
+        "id": "nl-BK-17040-A",
+        "objectNumber": "BK-17040-A",
+        "title": "Tafelstuk",
+        "hasImage": true,
+        "principalOrFirstMaker": "Wenzel Jamnitzer",
+        "longTitle": "Tafelstuk, Wenzel Jamnitzer, 1549",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "219e43c9-6b48-4861-a0af-9269dba7e7ef",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1441,
+            "height": 2500,
+            "url": "https://lh6.ggpht.com/9ulJVSDjPC6uiOPm-0Lj44cicGWRmukCmE98Ut3EAn6BhQeo76QZe_YIGiMTTX9rr4k3nqPymTmhrGjZDohEIR5ZrQ=s0"
+        },
+        "headerImage": {
+            "guid": "a7552298-f31f-4a34-b238-eab665305821",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1441,
+            "height": 346,
+            "url": "https://lh4.ggpht.com/n-uNMbZpfgUwOtBa7dOqU9KiTqsLIeGTmMoXMl6mLNoyXjsq5Mv-BjB6n8a6JfP-HK0qgvqrld_5KFALiaEAhN2yR1rk=s0"
+        },
+        "productionPlaces": [
+            "Neurenberg"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-251",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-251"
+        },
+        "id": "nl-SK-C-251",
+        "objectNumber": "SK-C-251",
+        "title": "Brieflezende vrouw",
+        "hasImage": true,
+        "principalOrFirstMaker": "Johannes Vermeer",
+        "longTitle": "Brieflezende vrouw, Johannes Vermeer, ca. 1663",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "78352c03-05fc-4606-b1a7-b104df321869",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2502,
+            "height": 3000,
+            "url": "https://lh3.googleusercontent.com/n7X03-aBMaHLQmd9UZXy0WSO81bLI376BMv8tjXfah_-BqdJURY-FoyX_YJKj5WuV5j3P8rLNEHM-T8jJztag9FQZkD3=s0"
+        },
+        "headerImage": {
+            "guid": "a07137ac-d93d-442e-91d4-a01a20d9df02",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/0HVDO1gCTFfGHX3sC73yF9BgZYK4QklpItp-NYETQ_dEzjOwvkAqoBSY1mOer5o-YE5c66t3szqaTCo4gIxYLIy11A=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-229",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-229"
+        },
+        "id": "nl-SK-C-229",
+        "objectNumber": "SK-C-229",
+        "title": "Het vrolijke huisgezin",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Havicksz. Steen",
+        "longTitle": "Het vrolijke huisgezin, Jan Havicksz. Steen, 1668",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "b66932b3-9c0c-4962-b2aa-3e4e48163417",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2852,
+            "height": 2211,
+            "url": "https://lh3.googleusercontent.com/7JF0tll1eAfY8XgFHJ6Iq_e1xux4xgcT8_LxMfVbZdRMC5CX5KsXLH1DLlMEfuTfKX8kehtmhJyzJSBFEBDPFmeB6Y8=s0"
+        },
+        "headerImage": {
+            "guid": "58be0ec5-ff9c-43a4-afcf-af0932fd008e",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/t8Etb-lGOHfVlowyCXeVtq7YkXuyI6jUPD7l-cgFTfY_zvhOcaj6XckPlbvYdA8VmtWBe4j8r9Stm8VHCwc6s1jn2w=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3948",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3948"
+        },
+        "id": "nl-SK-A-3948",
+        "objectNumber": "SK-A-3948",
+        "title": "Portret van een lid van de familie Van der Mersch",
+        "hasImage": true,
+        "principalOrFirstMaker": "Cornelis Troost",
+        "longTitle": "Portret van een lid van de familie Van der Mersch, Cornelis Troost, 1736",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "c2ac9347-7d7a-4148-ac21-152e6b29d0f5",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2022,
+            "height": 2556,
+            "url": "https://lh5.ggpht.com/5cC5A43gL66dAluLm3_Mp0NiZ7v6BZxwnD--37cz3fvjV087nF1NvkOjnlWs5KqnvgVtd1pcR-JcqkTCk8YKhWr_W3j8=s0"
+        },
+        "headerImage": {
+            "guid": "03fe8b83-69a2-42b0-911e-13dd6cee8757",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh5.ggpht.com/9WNL5KBUf9yw9ASqNMgnMW4olwz_FLkcsPnCncQ0DFBFlbYsWthyKg8jSgFG2Oh7peyHz08kiBsdyhNO7HVixIihXw=s0"
+        },
+        "productionPlaces": [
+            "Noordelijke Nederlanden"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-1368",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-1368"
+        },
+        "id": "nl-SK-C-1368",
+        "objectNumber": "SK-C-1368",
+        "title": "Portretten van Giuliano en Francesco Giamberti da Sangallo",
+        "hasImage": true,
+        "principalOrFirstMaker": "Piero di Cosimo",
+        "longTitle": "Portretten van Giuliano en Francesco Giamberti da Sangallo, Piero di Cosimo, 1482 - 1485",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "15563bd2-2fde-4b91-9984-ba6c6b166277",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2143,
+            "height": 1520,
+            "url": "https://lh3.googleusercontent.com/N2m90mImdcoLacUybb_rxcktTwtr0LFhtuzxbSE9elIhElF6jpWngx96_uZ0L1TGNof5pNt4n_Ygb4KYlPTpA9o6788=s0"
+        },
+        "headerImage": {
+            "guid": "76249f29-b230-41ac-aa38-1dcb8476b614",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/F0vBT6rGd8T1kb6oMdGZKHaGIZCHg3-CbL24iyZodWm55-GKptRyXg4BB-cf3FvS634hwjR30RwoHdQZ9YuSexM8QxA=s0"
+        },
+        "productionPlaces": [
+            "Florence"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-597",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-597"
+        },
+        "id": "nl-SK-C-597",
+        "objectNumber": "SK-C-597",
+        "title": "Portret van een vrouw, mogelijk Maria Trip",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "Portret van een vrouw, mogelijk Maria Trip, Rembrandt van Rijn, 1639",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "165d03bb-95e8-4447-a911-865f1bd201d6",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2031,
+            "height": 2676,
+            "url": "https://lh3.googleusercontent.com/AyiKhdEWJ7XmtPXQbRg_kWqKn6mCV07bsuUB01hJHjVVP-ZQFmzjTWt7JIWiQFZbb9l5tKFhVOspmco4lMwqwWImfgg=s0"
+        },
+        "headerImage": {
+            "guid": "f0270e59-baca-4429-ba00-d6c37b9ad00f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/MonorlaCKkTjeFrTBQyCb7kfmq8K--aWrThge7MsTItJxO_cw-8WbwgmTm0jTt-qfaFfnwa1qNEnsGYVHMPmCGmb0Pje=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-211",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-211"
+        },
+        "id": "nl-SK-C-211",
+        "objectNumber": "SK-C-211",
+        "title": "De molen bij Wijk bij Duurstede",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jacob Isaacksz van Ruisdael",
+        "longTitle": "De molen bij Wijk bij Duurstede, Jacob Isaacksz van Ruisdael, ca. 1668 - ca. 1670",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "bbb79014-8ebd-4922-ad48-fd4ee8c61bd2",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2880,
+            "height": 2376,
+            "url": "https://lh3.googleusercontent.com/3EDrQy1jW6akN2k8eAeCECHJ1FmvM1f2pb9a-de51ErcQcghh7cbpzFIh-QYdcGfpi3FjxH1AP6C_FvPNR-I9n8I4No=s0"
+        },
+        "headerImage": {
+            "guid": "a47bcb3d-ce7e-42f4-a7b9-e9f6efcc397d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/9JwJBbWxRi8Bhvjm3IDfWNr_u-NbZ3ReOXWJ-WKRHgONrACjGDxQi4I4scIvqVOaPTEyfA0HqPRwaAlmauq0EKlc9wY=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-1367",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-1367"
+        },
+        "id": "nl-SK-C-1367",
+        "objectNumber": "SK-C-1367",
+        "title": "Portretten van Giuliano en Francesco Giamberti da Sangallo",
+        "hasImage": true,
+        "principalOrFirstMaker": "Piero di Cosimo",
+        "longTitle": "Portretten van Giuliano en Francesco Giamberti da Sangallo, Piero di Cosimo, 1482 - 1485",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "277544ba-1a56-4492-84ee-3206ac4f24be",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2143,
+            "height": 1520,
+            "url": "https://lh3.googleusercontent.com/x9NFmu-RbZ_9M5BK_hOzQRdVj4pu7p--y_IYwDK46lDPzQtTIO9AlBV_ObgQiY7GeWE0ZfNjMSyrCWgnwL4MCasQZQ=s0"
+        },
+        "headerImage": {
+            "guid": "7fb8102f-3c26-4150-92a0-bdc5a67f123a",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/hHPZI5KMVFhS-tuGtcoo-WR0VMACT_7iypmXi9gCY2Gwg0BIK6irZN5GCihU7dcTskM1rEFIKs26M6S1W_oEzun0iR0I=s0"
+        },
+        "productionPlaces": [
+            "Florence"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-372",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-372"
+        },
+        "id": "nl-SK-A-372",
+        "objectNumber": "SK-A-372",
+        "title": "Maria Magdalena",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan van Scorel",
+        "longTitle": "Maria Magdalena, Jan van Scorel, ca. 1530",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "f1cda91e-4d37-4056-8979-028c4cd3da49",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2833,
+            "height": 2465,
+            "url": "https://lh3.googleusercontent.com/moxL3z7zz5j_5gQCgvRGcmLD-RDhVgZvA2NGREYgkLTkYUbGa4Ts-57UaQ4ilN38xWX6w_gb_eU6hkMZcC-wfMg5NQ=s0"
+        },
+        "headerImage": {
+            "guid": "6a9a1b0d-f2c2-45b0-8df4-e908a6af5eee",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/krUs6F8pg2YHqhNKOR1MiQs1lemgNlfErNtQdZBP4Jc7Re3-e6ae-CPlRFIpPf269-j-ze8sa_08bImIoebjCySGawM=s0"
+        },
+        "productionPlaces": [
+            "? Haarlem"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-1115",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-1115"
+        },
+        "id": "nl-SK-A-1115",
+        "objectNumber": "SK-A-1115",
+        "title": "De Slag bij Waterloo",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Willem Pieneman",
+        "longTitle": "De Slag bij Waterloo, Jan Willem Pieneman, 1824",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "926aee2c-c444-4a41-9ec3-8b2a9a819f62",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1655,
+            "url": "https://lh3.googleusercontent.com/MHkVLylkz-ITQAhXck5aQUTXxJX6xequIQbsppMh9eFx2fbg1Botuex8eQidQwyAgGttsISWm2FDipZ0SD5CWEIm_WA=s0"
+        },
+        "headerImage": {
+            "guid": "0b7c2de5-69ce-423a-8354-3532311c28aa",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/MvxENZDGuhzWMMm8N1yilwrvr4CGFLy4nm1G3ZI58_eEM87L6h-MjggKo_sgcBDlHzvI6lMILOkB4n5LjaQPGpkPC1g=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-4050",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-4050"
+        },
+        "id": "nl-SK-A-4050",
+        "objectNumber": "SK-A-4050",
+        "title": "Zelfportret als de apostel Paulus",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "Zelfportret als de apostel Paulus, Rembrandt van Rijn, 1661",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "58f00619-2e35-4d7d-a46d-0dcc6618f4ec",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2287,
+            "height": 2724,
+            "url": "https://lh3.googleusercontent.com/NrCcfeY0r2F3M2hIQe5SLDRofR2tVzeOH18VjflOYGj88v4clb4v2H_VgCZR4nJhYsxxH9ATzfkL2tRqOWEK5-gPVEE=s0"
+        },
+        "headerImage": {
+            "guid": "aba7d9da-5d4b-4389-8347-c3de63c33d98",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2276,
+            "height": 544,
+            "url": "https://lh3.googleusercontent.com/koQbNAoqV857feer4wJRVF-lbFzyNdvSsjgnXTTF3P3Dmgm2s_7noCVyqsxr1466YiIccueR0DpaU9-wPchhM0bIiQ=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-6",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-6"
+        },
+        "id": "nl-SK-C-6",
+        "objectNumber": "SK-C-6",
+        "title": "De waardijns van het Amsterdamse lakenbereidersgilde, bekend als \u2018De Staalmeesters\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "De waardijns van het Amsterdamse lakenbereidersgilde, bekend als \u2018De Staalmeesters\u2019, Rembrandt van Rijn, 1662",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "2c1ac367-9b11-4266-bb08-eea14ca0bb76",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 3000,
+            "height": 1975,
+            "url": "https://lh3.googleusercontent.com/gShVRyvLLbwVB8jeIPghCXgr96wxTHaM4zqfmxIWRsUpMhMn38PwuUU13o1mXQzLMt5HFqX761u8Tgo4L_JG1XLATvw=s0"
+        },
+        "headerImage": {
+            "guid": "5f71570b-21d2-4f00-9219-edb93137110c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/8vtyRTsJdGXuZhnHl5wF6vBgDNInw3q56DFYYr0Rzm1JJYNRl2iSIC30d_erXkTe_Yv8uJq1ZL56zFrXUpTFJrBDcbE=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-4691",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-4691"
+        },
+        "id": "nl-SK-A-4691",
+        "objectNumber": "SK-A-4691",
+        "title": "Zelfportret",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "Zelfportret, Rembrandt van Rijn, ca. 1628",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "89de22aa-e19f-4c83-87ff-26dd8f319c05",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2118,
+            "height": 2598,
+            "url": "https://lh3.googleusercontent.com/7qzT0pbclLB7y3fdS1GxzMnV7m3gD3gWnhlquhFaJSn6gNOvMmTUAX3wVlTzhMXIs8kM9IH8AsjHNVTs8em3XQI6uMY=s0"
+        },
+        "headerImage": {
+            "guid": "99061015-b788-42ed-a9d8-06db0bcf39e3",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/WKIxue0nAIOYj00nGVoO4DTP9rU2na0qat5eoIuQTf6Fbp4mHHm-wbCes1Oo6K_6IdMl6Z_OCjGW_juCCf_jvQqaKw=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-18305",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-18305"
+        },
+        "id": "nl-BK-18305",
+        "objectNumber": "BK-18305",
+        "title": "Portret van Andries de Graeff",
+        "hasImage": true,
+        "principalOrFirstMaker": "Artus Quellinus (I)",
+        "longTitle": "Portret van Andries de Graeff, Artus Quellinus (I), 1661",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "876923e7-ee7b-4339-b3f5-5f24f2788f1d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2085,
+            "height": 2500,
+            "url": "https://lh5.ggpht.com/Dm4qOkEfe0P9YqnN7s-KRxy6K_o4trePSnlVvGNg0TPGcKmiDS_sdmqqbSeSENg22FFjyIz0xI2CEJhkrk9IfmDYHwo=s0"
+        },
+        "headerImage": {
+            "guid": "1d449c5c-2ea9-4e29-bb4f-161ad61a3094",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh5.ggpht.com/857ue3MkLXfJLhmfO5M9kyyB7rXZ65RmagZgmJr2TG2JFshbBVwJdw7IrzU_PL1CuyPAgkRUPA_1yQrdzRkudUFlFvw=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/AK-MAK-187",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/AK-MAK-187"
+        },
+        "id": "nl-AK-MAK-187",
+        "objectNumber": "AK-MAK-187",
+        "title": "Shiva Nataraja",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Shiva Nataraja, anoniem, ca. 1100 - ca. 1200",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "ed3bb15a-a6b9-4ecd-836c-942a6ad8a9cd",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1780,
+            "height": 2500,
+            "url": "https://lh5.ggpht.com/vV5DJTpPEL5dOCFmytemK61JuTSX_9SQKI11U7uAhm4WB48zX6oyv8rXbBwYrSb7tPXUhERrROL8k2P9C5Q0NiOpCbs=s0"
+        },
+        "headerImage": {
+            "guid": "3117b673-e3fc-4b32-9df1-d5f9f03a3886",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1780,
+            "height": 427,
+            "url": "https://lh3.ggpht.com/tRNfvo1d-nwt150COh5uNeUytvAm72zQmjlXp9viywkDPAzYIDJsEQV503MZG9R3QNEYsQ3uuJMYmMv6q3dxCbkIDfpo=s0"
+        },
+        "productionPlaces": [
+            "Tamil Nadu"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-3580",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-3580"
+        },
+        "id": "nl-SK-A-3580",
+        "objectNumber": "SK-A-3580",
+        "title": "De Singelbrug bij de Paleisstraat in Amsterdam",
+        "hasImage": true,
+        "principalOrFirstMaker": "George Hendrik Breitner",
+        "longTitle": "De Singelbrug bij de Paleisstraat in Amsterdam, George Hendrik Breitner, 1898",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "cd15e2fa-b1f6-41f4-9e9e-c2ca87abcca3",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2880,
+            "height": 1897,
+            "url": "https://lh3.googleusercontent.com/Bawo7r1nPZV6sJ4OHZJHdKV_4Ky59vquAR7KoUXcNZgx9fqTaOW-QaOM9qoyYhOTAopzjt9OIfW06RMwa-9eJW9KjQw=s0"
+        },
+        "headerImage": {
+            "guid": "fef39f74-9783-44c9-acae-69eac3a76b01",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/jR6y5a8lFvgYe37WxLPQJZTjBAaBB6aIFYMsFw9gGP1y69TltkVQdWQVoZhSyGN9ZnPKR5taEJPbGhUBSDxlOmNqoyI=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/AK-MAK-84",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/AK-MAK-84"
+        },
+        "id": "nl-AK-MAK-84",
+        "objectNumber": "AK-MAK-84",
+        "title": "Guanyin",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Guanyin, anoniem, ca. 1100 - ca. 1200",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "9ff4dc3b-6580-443e-9546-9ab1a4478d13",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2759,
+            "height": 3000,
+            "url": "https://lh3.ggpht.com/FkkMpQsDIyGGyfUGafaEKVcrXJXFDMfzDBuIU41XIg8nWGGEQwmHa1ouAL2Zhyl2yw4mBqwAlmUY1tULVdZoTN2QcA=s0"
+        },
+        "headerImage": {
+            "guid": "686e2662-fff5-421f-a717-096f257c36c4",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1922,
+            "height": 460,
+            "url": "https://lh3.ggpht.com/82udwwljoeije49Jf4kPgoZ_OQ_T3WfuP1kh3WlWEtsIV8wcgsWUqvzVS5B4BJY3lwUuF746o3jtffwigxkk7QR5=s0"
+        },
+        "productionPlaces": [
+            "Shanxi"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-500",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-500"
+        },
+        "id": "nl-SK-A-500",
+        "objectNumber": "SK-A-500",
+        "title": "De heilige maagschap",
+        "hasImage": true,
+        "principalOrFirstMaker": "Geertgen tot Sint Jans",
+        "longTitle": "De heilige maagschap, Geertgen tot Sint Jans (atelier van), ca. 1495",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "fe12a6fa-fda9-47ee-99da-50a2b12c0abb",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2040,
+            "height": 2658,
+            "url": "https://lh3.googleusercontent.com/qjkiSAC89H2lvsgogjCe6WGLzMFNgdoCLHwRngvUX6BACTFTggkzIXE99tz9Em-hTf44MS9YeRsxCjDkW7tfC9lprw=s0"
+        },
+        "headerImage": {
+            "guid": "fe1b786d-943d-4bd8-9dc1-1559ffa45343",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/lktwooJWkHdMdbDh8RiQrGuMBh2QojMAVgbwMHs7ebBxe6XPgj-RFMAplaffrb9jfvaRUcYy3JucDArwqHf1HnO3QA=s0"
+        },
+        "productionPlaces": [
+            "Haarlem"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-C",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-C"
+        },
+        "id": "nl-BK-AM-33-C",
+        "objectNumber": "BK-AM-33-C",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "b0e1c132-8ba4-4796-a12a-e351adb594d1",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh5.ggpht.com/EHhJDrv4IB_89m9w9VlcYRYHYOuvU72iwD11oZ1HL3J5QcCMfmAD48CVxAtUwts9RT55W4lWSPI19wb1lSRZ9zecKMA=s0"
+        },
+        "headerImage": {
+            "guid": "0fc28843-cc86-4fb0-8b52-16c5f68b3c6f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh5.ggpht.com/vMN8tGK7lHeI1Oe6_p2hFWStHqR0iUR1GdqsInkZoRdCwsYlKdqrb_2-zVX_4SxfY7p7T-HmDH-pj4fq06QCc_Xtr016=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-F",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-F"
+        },
+        "id": "nl-BK-AM-33-F",
+        "objectNumber": "BK-AM-33-F",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "45d2e840-9048-45b0-b729-f6c70b7beaca",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh3.ggpht.com/3bzg_jUPUnsPxCugY78L5mF-nOg9_l_7rMGkHVfTK0wUFU0J2kfZ_vMLT65F6nRDm5Ck7hy9iQoYCiWC2V1Becaj15E=s0"
+        },
+        "headerImage": {
+            "guid": "09b9e4b5-c4b0-47d1-b542-bf91fc0d297b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/ez_Q7kfZ-_cQXI9UV8lCTGAEkmcHzfJZQFguJEEw8JGNFVzR2SdOqXcZ4EV5YMC-VfXgeUSv_Yjc7hPLkJ6vjkZUIg=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-A",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-A"
+        },
+        "id": "nl-BK-AM-33-A",
+        "objectNumber": "BK-AM-33-A",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Borman (II), Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Jan Borman (II) (toegeschreven aan), Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "a394201d-1a24-4903-8215-f01631fc6162",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh6.ggpht.com/ln-rOgO6J4V-YTJ1kJBkW7mA3qE28NJYQWEW-mG4xcpsLbDneSyK6y4W0626JMxqKUOfRcfbEHcUnxPl6DIbctXs0V-R=s0"
+        },
+        "headerImage": {
+            "guid": "6859c134-9647-4beb-b7a4-75222063768e",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/_Tu9d0pv1VzdLiSf-iR_DWOJhicysh61b4GAuL7Z1o_hINkW8rNruH9rPsZzm7ixChTgIP93LoKT9RzQ_JLJ0hggjQ=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-G",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-G"
+        },
+        "id": "nl-BK-AM-33-G",
+        "objectNumber": "BK-AM-33-G",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "403eee98-65fa-4532-99a1-714b022aaa82",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh3.ggpht.com/BaIwY8pOBetOdRlZSJRPE1M2Z4KxkU9aOoKphqig0aMK9KhnlvN03AFYBaQxXV5ejHNNcaaSwQMmzeprmZhpFUy7pg=s0"
+        },
+        "headerImage": {
+            "guid": "85a7b8a2-5418-4eaa-8eec-f5186554d89f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh5.ggpht.com/yW_KqRG6QRPHw3uGr341o6UL0tIJdafJecy79SmO4bGraMZKTwpG2fwW7jMQflTwg_qEKjMdb808XEFyKVfI8PmDmyk=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-J",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-J"
+        },
+        "id": "nl-BK-AM-33-J",
+        "objectNumber": "BK-AM-33-J",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Borman (II), Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Jan Borman (II) (toegeschreven aan), Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "8d27cbc1-32a1-4b11-9e7e-ec624500e696",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1656,
+            "height": 2500,
+            "url": "https://lh4.ggpht.com/-xIJabR1yHWNnbX277YqLXC0H4bcKRWEDvulNRXOi75nB-jHBsCwwraBSXOhQ7coAyltbAmPhfFvSb2NFlU5ibSbhA=s0"
+        },
+        "headerImage": {
+            "guid": "67779922-063f-4100-bf5d-d6aa9bf18de8",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.ggpht.com/_X1Q95ZKHi8XFHy-oL44YKCOgzPHREJumLNSoUnbIhGK-e0CRSYyxxipgInP--1OkyDazQZar3Wxr95Nsw3DWGWOrNg=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-D",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-D"
+        },
+        "id": "nl-BK-AM-33-D",
+        "objectNumber": "BK-AM-33-D",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "cc0d028f-2bc5-4770-b378-1afa99e1bf77",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1655,
+            "height": 2500,
+            "url": "https://lh6.ggpht.com/zEY5JwpbGa7M7ueF5Nyqx3N0xeCXrQ_Ck83xIws2OxWScEOdOfxv-jZwRqSoxfz4Kqq4o96XKkIggCx3_JUjpYolsw=s0"
+        },
+        "headerImage": {
+            "guid": "6311e38e-9b26-49ac-b9b9-c091b0de510a",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/DDe9S-BYnr8N63J-X3alws5KziMq_QAeLPgTBzH2XDXTjlzQQAzHCV7FeaQi1_yaGd4j_MP8ef2y4whbUNZsY7nzihj-=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-AM-33-E",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-AM-33-E"
+        },
+        "id": "nl-BK-AM-33-E",
+        "objectNumber": "BK-AM-33-E",
+        "title": "Tien pleurants van het praalgraf van Isabella van Bourbon",
+        "hasImage": true,
+        "principalOrFirstMaker": "Renier van Thienen",
+        "longTitle": "Tien pleurants van het praalgraf van Isabella van Bourbon, Renier van Thienen (toegeschreven aan), ca. 1475 - ca. 1476",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "1a3bc6ce-d516-450b-836c-f4da1eaddefa",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1655,
+            "height": 2500,
+            "url": "https://lh6.ggpht.com/z37VVIUgOOW4cumA4FvSwyvuMWdk6rjD7CBu1aAL5OGz_-RRuuQ2Xq4jEuHWn7plIwhD4bT2Qp8pnGRqbWPiNPpM0gwE=s0"
+        },
+        "headerImage": {
+            "guid": "6e9c3453-3bbe-4e94-af7f-280c19931bfe",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.ggpht.com/4ZApeLgijY_XxMxscXzTcMOnK_51Wl9YT2hswXucp_ESzZFykhHmM02xLoL9s6765IhaLueP2a4V7U-X-iBT7BWzlTth=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Brussel",
+            "Doornik",
+            "Brussel"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-5",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-5"
+        },
+        "id": "nl-SK-C-5",
+        "objectNumber": "SK-C-5",
+        "title": "De Nachtwacht",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "De Nachtwacht, Rembrandt van Rijn, 1642",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "aa08df9c-0af9-4195-b31b-f578fbe0a4c9",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2500,
+            "height": 2034,
+            "url": "https://lh3.googleusercontent.com/J-mxAE7CPu-DXIOx4QKBtb0GC4ud37da1QK7CzbTIDswmvZHXhLm4Tv2-1H3iBXJWAW_bHm7dMl3j5wv_XiWAg55VOM=s0"
+        },
+        "headerImage": {
+            "guid": "29a2a516-f1d2-4713-9cbd-7a4458026057",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/O7ES8hCeygPDvHSob5Yl4bPIRGA58EoCM-ouQYN6CYBw5jlELVqk2tLkHF5C45JJj-5QBqF6cA6zUfS66PUhQamHAw=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-217",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-217"
+        },
+        "id": "nl-SK-C-217",
+        "objectNumber": "SK-C-217",
+        "title": "Interieur van de Sint-Odulphuskerk in Assendelft",
+        "hasImage": true,
+        "principalOrFirstMaker": "Pieter Jansz. Saenredam",
+        "longTitle": "Interieur van de Sint-Odulphuskerk in Assendelft, Pieter Jansz. Saenredam, 1649",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "69a9e984-f3f7-498f-bf7b-c5abaf0068f6",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1645,
+            "url": "https://lh3.googleusercontent.com/syXQ15BsLoLf9scnpbIost1DjOARfi7Cv34V1R4-CfsOIBV0fGC91g4kJhNexvjxNJbjLK7af-rAO5_tsebkcJYQyFo=s0"
+        },
+        "headerImage": {
+            "guid": "f4f3220c-9803-4d7d-8877-90c5c7eca187",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/Hguhc8uFABdHPBllBwvU4z0WHYSZenBAn5aX8Sttk7kfIYCj8zSJRuyIsRHXI4UsIJQY9u9QBT_Odel7q4aFAMhuwGE=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-216",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-216"
+        },
+        "id": "nl-SK-C-216",
+        "objectNumber": "SK-C-216",
+        "title": "Isaak en Rebekka, bekend als \u2018Het Joodse bruidje\u2019",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "Isaak en Rebekka, bekend als \u2018Het Joodse bruidje\u2019, Rembrandt van Rijn, ca. 1665 - ca. 1669",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "2fe159d5-619a-46d3-b3d2-9412e6f6bdd8",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1817,
+            "url": "https://lh3.googleusercontent.com/mAyAjvYjIeAIlByhJx1Huctgeb58y7519XYP38oL1FXarhVlcXW7kxuwayOCFdnwtOp6B6F0HJmmws-Ceo5b_pNSSQs=s0"
+        },
+        "headerImage": {
+            "guid": "10911bfe-4e23-4c3a-95f7-515609f4d711",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1925,
+            "height": 461,
+            "url": "https://lh3.googleusercontent.com/0fTHP4xUsJZbQjzIHYtgHr1gRWBXjm9udaZT4ah35J_LyNzga-SyI0h61klse9sJqn53eUfuVIWZvP8IhW0jN4v91SM=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-5033",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-5033"
+        },
+        "id": "nl-SK-A-5033",
+        "objectNumber": "SK-A-5033",
+        "title": "Marten Soolmans (1613-1641)",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "Marten Soolmans (1613-1641), Rembrandt van Rijn, 1634",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "974d1c9c-befa-4e1a-9926-ebd7f89557b5",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 4757,
+            "height": 7485,
+            "url": "https://lh3.googleusercontent.com/hDN8_JS4BbbksBXkxIDUldJvooejHBfQjgD3b_Jr73HjVOAs8thpnvCJA3WUtQFxlbjx-QB1-IyqhgEiM4dFLFk1Sg=s0"
+        },
+        "headerImage": {
+            "guid": "e6a28349-49ae-4c69-a971-ad8836936a1d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/smzena2yZjz8hCuzMNaAYbvFXqqPN-vSvs-ryFKz2KsNAzVdXm4kfLbK9PrpwI2f9eCO44PNIbBYv18HaufxMsHYqg=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-C-1768",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-C-1768"
+        },
+        "id": "nl-SK-C-1768",
+        "objectNumber": "SK-C-1768",
+        "title": "Oopjen Coppit (1611-1689)",
+        "hasImage": true,
+        "principalOrFirstMaker": "Rembrandt van Rijn",
+        "longTitle": "Oopjen Coppit (1611-1689), Rembrandt van Rijn, 1634",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "6dd85188-6e00-45f5-a749-b0d6f7bf373b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 4746,
+            "height": 7485,
+            "url": "https://lh3.googleusercontent.com/ib8SNTK2Qk-z64UYuu-_mI3FswMpYmmNU871wu5diDEPyjxmYJcNI4qRtqxlvKkVnrXTAxAFkuHX7DAN9ZwPFzS5fGE=s0"
+        },
+        "headerImage": {
+            "guid": "6ac7e269-da2e-4bf3-a870-809db805fe62",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 4746,
+            "height": 1134,
+            "url": "https://lh3.googleusercontent.com/ydZiwQgiic6wYdPwjbx5s04tdOHwkOgbA_lvtMrQvjWMqz4rYJRrxCn0s3592MfHWN6K__QlR48S962J8c4mHEzYwwY=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-17040-A-1",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-17040-A-1"
+        },
+        "id": "nl-BK-17040-A-1",
+        "objectNumber": "BK-17040-A-1",
+        "title": "Plaquette van de Merkelsche Tafelaufsatz",
+        "hasImage": true,
+        "principalOrFirstMaker": "Wenzel Jamnitzer",
+        "longTitle": "Plaquette van de Merkelsche Tafelaufsatz, Wenzel Jamnitzer, 1549",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "8aa9966e-f9ea-4e39-9818-fe9920bc02ee",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 2632,
+            "url": "https://lh3.googleusercontent.com/v_2ZDWGDKcCOOsWssFvXBelZKxCLL-zrotJ7LRX2IY6NNb58f9Z4rhDHqH31hkdmxTbbFTOpS37vUJaMncLapbzSxgY=s0"
+        },
+        "headerImage": {
+            "guid": "2b48210d-090a-42c7-805c-aa8d82406e6c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/DDFQ8LKSiRnvEHYhpE0XP5zDHt5GVXVqMNm0rFMArzjguuElYYdrPP3gaiyHgvbFrj8NZHoYHDFmOQPvlxPUT9kHrHuI=s0"
+        },
+        "productionPlaces": [
+            "Neurenberg"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-1995-3",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-1995-3"
+        },
+        "id": "nl-BK-1995-3",
+        "objectNumber": "BK-1995-3",
+        "title": "Schoorsteen met reli\u00ebf van Paris en Oenone",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Baptist Xavery",
+        "longTitle": "Schoorsteen met reli\u00ebf van Paris en Oenone, Jan Baptist Xavery, 1739",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "af4f9c17-f153-4be4-b94f-30d82208ff62",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2532,
+            "height": 3000,
+            "url": "https://lh4.ggpht.com/5JdE17_WKRlTQhwSnYvihCVYLsDq51l5IHqOJaUPXW7XEHhCh9GKczABuXvgNwNokBUSxKGkD4b3wUw_qjBukUoNCpc=s0"
+        },
+        "headerImage": {
+            "guid": "5f9a72c3-a9fc-4ce6-b801-64dd028a3a76",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/sMEuP2C16sK41RAHCfn-Fi2eT0tGUmWJaq9Fljnf6Z2s5usV0PAU6XM0ZlXfdU-0T-WPVL1CBWQxItS-10Zd59amvjtM=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-NM-1315",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-NM-1315"
+        },
+        "id": "nl-BK-NM-1315",
+        "objectNumber": "BK-NM-1315",
+        "title": "Stadhoudersstoel",
+        "hasImage": true,
+        "principalOrFirstMaker": "Gerrit Hutte",
+        "longTitle": "Stadhoudersstoel, Gerrit Hutte, 1747",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "65528492-d1e8-4332-8cc2-aeff11a671dc",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1872,
+            "height": 2500,
+            "url": "https://lh5.ggpht.com/xsp3XhQMxPi-eR9q6_Th3MIEK0tKHnPK-7xfVNw5X0xL_n2rhHdmBYB2wQGOLk0Qwt5JnrIrw-Dj_65c-BTcgVnshDhf=s0"
+        },
+        "headerImage": {
+            "guid": "f18bc662-bc6a-4b83-abec-ecd5b577205c",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1872,
+            "height": 449,
+            "url": "https://lh4.ggpht.com/R0ImlDyFz4Hod87UMA89OoGZv99q11lxgBHpVHqASP_zBH9V4w1IZTF7lzi5hBSZbhsxeuuuKn6lU86nRW-4LzAy2No5=s0"
+        },
+        "productionPlaces": [
+            "Den Haag",
+            "Den Haag"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-15613",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-15613"
+        },
+        "id": "nl-BK-15613",
+        "objectNumber": "BK-15613",
+        "title": "Haarlemse ontvangstkamer 1794",
+        "hasImage": true,
+        "principalOrFirstMaker": "Abraham van der Hart",
+        "longTitle": "Haarlemse ontvangstkamer 1794, Abraham van der Hart, ca. 1793 - ca. 1795",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "65fc2221-c6d7-4863-b7d4-ca39dbcad3e3",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2500,
+            "height": 1875,
+            "url": "https://lh6.ggpht.com/d8aPf4-PukU3BjWLFVXjqFcQHqa1A-gQP4ARaj3NsuH-a2pIQpLqJ-PtwE5s6lkhSkrbYOuwFOf7eFhCtnCT-k3irOuF=s0"
+        },
+        "headerImage": {
+            "guid": "a57ea0b5-1886-4201-9cf7-e5f1e2bd0025",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/ES06h3U7acUbv54CrcjpMY4xShW_pDCTZ9Ye9fzLiRXJFy0swMWJan-c1_3gEE9ef4oF8wfWICG0WZ6egXPPFxOiaNXd=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-1994-34",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-1994-34"
+        },
+        "id": "nl-BK-1994-34",
+        "objectNumber": "BK-1994-34",
+        "title": "Toiletspiegel",
+        "hasImage": true,
+        "principalOrFirstMaker": "Joseph-Germain Dutalis",
+        "longTitle": "Toiletspiegel, Joseph-Germain Dutalis, 1828 - 1829",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "e1440448-094a-457e-9ace-4992a7eb534f",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 3000,
+            "height": 2432,
+            "url": "https://lh3.ggpht.com/iFBkePzr2zv4oZKlzOYacFJJRuSfcP1IH5yd4n9dr4Ol_fmQRmoONzBH55Q0OBvC0CDAyYSZLkl7wKroQSZ0sRo9Fqk=s0"
+        },
+        "headerImage": {
+            "guid": "d2a7b651-7f82-44a1-a3fe-905d641b2fec",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/yDiDAWPuRIHd6Gtna-MyyM3gvI8nsermoXbLtYh37wWXp_MGxo4zaXWzC2tA6thdO_Fuuz_06GHpsKq4ITA92dhbqw=s0"
+        },
+        "productionPlaces": [
+            "Brussel",
+            "Den Haag"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-5003",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-5003"
+        },
+        "id": "nl-SK-A-5003",
+        "objectNumber": "SK-A-5003",
+        "title": "Gezicht op de Gouden Bocht in de Herengracht",
+        "hasImage": true,
+        "principalOrFirstMaker": "Gerrit Adriaensz. Berckheyde",
+        "longTitle": "Gezicht op de Gouden Bocht in de Herengracht, Gerrit Adriaensz. Berckheyde, 1671 - 1672",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "8930dd6f-b966-434e-a434-c66392fd78d0",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2904,
+            "height": 2092,
+            "url": "https://lh3.googleusercontent.com/Rvymv3LXhOcFOVnZpZSGoUJ8oMGjFyOmc-Ys43EMqe9QfpJYc4j5Mg9B8goHKH8gwJSKAhTDj2VeT2T3s8Sn1eu2QrY=s0"
+        },
+        "headerImage": {
+            "guid": "4787a4be-33ed-4a52-9bf3-75cb7886565d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.googleusercontent.com/YGf8u3mAsP712K8qUMjLQMEprEl8Nt3Tv2UdKBZPLjYKyvixdpKNT8hXAcYi992E4RFA61tyTE9HsIxSBujgkHdwP00=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/AK-RAK-2007-1-B",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/AK-RAK-2007-1-B"
+        },
+        "id": "nl-AK-RAK-2007-1-B",
+        "objectNumber": "AK-RAK-2007-1-B",
+        "title": "Twee tempelwachters",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Twee tempelwachters, anoniem, ca. 1300 - ca. 1400",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "56374504-1b42-4219-952a-cc0ba6595056",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2247,
+            "height": 3000,
+            "url": "https://lh3.ggpht.com/15KsVzHlq7snTSms0auRuMde4cKMZPuXGfmb_iP0v3QkVD_5P6qS5FPT5F6ziF-RG3FCmdadUrJslmg6QN4ojFFlXp0=s0"
+        },
+        "headerImage": {
+            "guid": "30478659-26d0-45a6-9e12-2812b52dd6e5",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/DiAwb7K2jZWnACPE9ojPIDMPowhB4JEjhItrcayW3iRdCGRZyWyKYbX4ONro8NpM76iq1QqXtW51gC96nxeuydAX172f=s0"
+        },
+        "productionPlaces": [
+            "Japan"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/AK-RAK-2007-1-A",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/AK-RAK-2007-1-A"
+        },
+        "id": "nl-AK-RAK-2007-1-A",
+        "objectNumber": "AK-RAK-2007-1-A",
+        "title": "Twee tempelwachters",
+        "hasImage": true,
+        "principalOrFirstMaker": "anoniem",
+        "longTitle": "Twee tempelwachters, anoniem, ca. 1300 - ca. 1400",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "972d5149-bb14-4b2b-b90c-20b281c61925",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2247,
+            "height": 3000,
+            "url": "https://lh6.ggpht.com/MbfT5rz181mb7CB87HJDTDit-Oer0BZ5WuYYwfcoD_aZDAVhCl94o7HuxKaPxQ-XNR3mZBwbMvKfPcQS4yWxqoyugu0=s0"
+        },
+        "headerImage": {
+            "guid": "6efcaee7-9ec2-48c2-9b2e-eb7def40335d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh3.ggpht.com/LJz1FkInwBYwSmfiHJbWTOBPKhE7_kzUj82MT9bv7JWJLucoPVbOlFukRy-dOX-i66zaLyiha_Nq1lOFAeDC-7IPE8Q=s0"
+        },
+        "productionPlaces": [
+            "Japan"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-2010-1",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-2010-1"
+        },
+        "id": "nl-BK-2010-1",
+        "objectNumber": "BK-2010-1",
+        "title": "Leunstoel voor Til Brugman",
+        "hasImage": true,
+        "principalOrFirstMaker": "Gerrit Thomas Rietveld",
+        "longTitle": "Leunstoel voor Til Brugman, Gerrit Thomas Rietveld, ca. 1919",
+        "showImage": false,
+        "permitDownload": false,
+        "webImage": {
+            "guid": "c940a335-873d-4aa7-a36b-44f47b8079db",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2285,
+            "height": 2500,
+            "url": "https://lh5.ggpht.com/S7arQL2F73diAKF63nuTFOLWx0UqgEl9ymymaqYqYDDPXyzloJLX07eZW3tEkHDJg8Eqk5OA3foQOw0VXyWBFWtSxow=s0"
+        },
+        "headerImage": {
+            "guid": "891bfbaf-210c-47bd-bd72-ddaff3cfc456",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1919,
+            "height": 459,
+            "url": "https://lh3.ggpht.com/jhv-601qT99ktaOB2lHJXphHeitdC12IyWAo3gcckQ7yz3qkojfiMSQ1fBb86bNfeUzRt2k_dzCiHfCVSU58DqkwagM=s0"
+        },
+        "productionPlaces": [
+            "Utrecht",
+            "Utrecht",
+            "Utrecht",
+            "Utrecht"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/NG-2005-24",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/NG-2005-24"
+        },
+        "id": "nl-NG-2005-24",
+        "objectNumber": "NG-2005-24",
+        "title": "Diorama van een slavendans",
+        "hasImage": true,
+        "principalOrFirstMaker": "Gerrit Schouten",
+        "longTitle": "Diorama van een slavendans, Gerrit Schouten, 1830",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "73b31152-75fa-460f-a1eb-ff0917bf4fd6",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 2500,
+            "height": 2084,
+            "url": "https://lh6.ggpht.com/7OHEXw0f2ysa_4r7k9Z0ejcr0AmsuTIm7VNZm9413kTTr_ReCXj_LfTBZVUDxV-ZE4qM0JVZVBdYj0zPhsWPmz1Hu4s=s0"
+        },
+        "headerImage": {
+            "guid": "c172e636-f59c-4d66-b25a-6e033966d6f7",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/XOSSu-FiAF3SVw3iOllZ9BlzKDQf3bWbZ1wn42HSEJCi8ZL6JEnFbrL73sWG-WhU99BD6oWXifPfWMQ6uSPv-B38Acw=s0"
+        },
+        "productionPlaces": [
+            "Suriname"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-2004-4-A",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-2004-4-A"
+        },
+        "id": "nl-BK-2004-4-A",
+        "objectNumber": "BK-2004-4-A",
+        "title": "Bloempiramide",
+        "hasImage": true,
+        "principalOrFirstMaker": "De Metaale Pot",
+        "longTitle": "Bloempiramide, De Metaale Pot (toegeschreven aan), ca. 1692 - ca. 1700",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "711ae777-7c36-4870-bd16-94e6ee2afcf9",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 1,
+            "width": 1609,
+            "height": 2500,
+            "url": "https://lh3.ggpht.com/ncDYPgm3aUTRgH4-iwcpL7uaRIS7Fpk-JMJBwj9xIWA5T-q8SuqwtQ-7pbtQNybXKttaWo2FDixWyDfAhQp_KmtK4cGp=s0"
+        },
+        "headerImage": {
+            "guid": "65fb5b49-df47-4287-bd77-51fe6b1e5b3d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1609,
+            "height": 386,
+            "url": "https://lh3.ggpht.com/4SvgyQ1jE7M-HItTMTV07qahzLGhwum60NJ_oPjsof0-TMHv-w5wF5VoTNbHprpdA_w7SIXGfNuAm-fn1gefG1hF2iL6=s0"
+        },
+        "productionPlaces": [
+            "Delft",
+            "Delft"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-2009-255-1",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-2009-255-1"
+        },
+        "id": "nl-BK-2009-255-1",
+        "objectNumber": "BK-2009-255-1",
+        "title": "Twee toiletkoffers",
+        "hasImage": true,
+        "principalOrFirstMaker": "Andr\u00e9-Charles Boulle",
+        "longTitle": "Twee toiletkoffers, Andr\u00e9-Charles Boulle (toegeschreven aan), ca. 1685 - ca. 1690",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "e750b454-3b78-4ebc-9296-c929057a1c9d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2339,
+            "height": 3000,
+            "url": "https://lh6.ggpht.com/9J2P7y9y4eZ3T9Qwg9-qM2RZpOs2d9KB3KerFFEx9wc9Wsqb6OygA8xT3iYqGscas8hhdS8UizZzTyxP24kW5HOmcE2N=s0"
+        },
+        "headerImage": {
+            "guid": "0434dc39-253a-40a7-8b80-e592d4fd7980",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/wlHlS69w1p1Hod685OPcXNu2r5R_Y65yYcLvZYfmwf7ZE_re7ZinLoohn_ncerLtAW6TXYunm0DB_YcHfptj7YTdeTI=s0"
+        },
+        "productionPlaces": [
+            "Parijs"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-2009-255-2",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-2009-255-2"
+        },
+        "id": "nl-BK-2009-255-2",
+        "objectNumber": "BK-2009-255-2",
+        "title": "Twee toiletkoffers",
+        "hasImage": true,
+        "principalOrFirstMaker": "Andr\u00e9-Charles Boulle",
+        "longTitle": "Twee toiletkoffers, Andr\u00e9-Charles Boulle, ca. 1685 - ca. 1690",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "539d7bab-910c-499b-8683-baf2ad7a0f54",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 2369,
+            "height": 3000,
+            "url": "https://lh4.ggpht.com/hr2NvVMJ1_ER4X-LeyHDBOaKm4aorUB4HaXtrb8JoZwtqZb6xsCnvaBT9r4SQiKK5svwtR0JwQUcYjmqhw71Hx9wfc8=s0"
+        },
+        "headerImage": {
+            "guid": "a155a067-584d-45d9-8fc5-e6219a16970d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/6j87OS2bJzn6LhHQBp1BAkHHdUIl-c49KZrWuk5w5Y3f-8H6k2XeD7gDb2MtYKIzZkgZpbmrlf9DYnYrRhOIeVYGdcg=s0"
+        },
+        "productionPlaces": [
+            "Parijs"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-2008-4",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-2008-4"
+        },
+        "id": "nl-BK-2008-4",
+        "objectNumber": "BK-2008-4",
+        "title": "Acht gestapelde balken",
+        "hasImage": true,
+        "principalOrFirstMaker": "Carel Visser",
+        "longTitle": "Acht gestapelde balken, Carel Visser, 1964",
+        "showImage": true,
+        "permitDownload": false,
+        "webImage": {
+            "guid": "386ef182-eee4-4d74-bc77-31b42cd3b47e",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 3000,
+            "height": 2247,
+            "url": "https://lh4.ggpht.com/YyrjGW8ucfs-_W98kK5q2XX6NcH-3-s_Un_7VhS2JGSlCzob0zkGvFX6oiNVO7Ib0gR1YF-k-IOCz-a8OfEKJeNq-rI=s0"
+        },
+        "headerImage": {
+            "guid": "d7dde00f-e304-40d7-8332-9b522f71c66d",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh4.ggpht.com/ItEvteMxVc14FdeEP8y69EYOqHkIUkkIr0n6ubICrY9OiIJF7E9ThFDvTLTqml64VsfmGMYpIw_rz-QAyFmx2Jnw3A=s0"
+        },
+        "productionPlaces": []
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/SK-A-5007",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/SK-A-5007"
+        },
+        "id": "nl-SK-A-5007",
+        "objectNumber": "SK-A-5007",
+        "title": "Schotelreli\u00ebf",
+        "hasImage": true,
+        "principalOrFirstMaker": "Jan Schoonhoven",
+        "longTitle": "Schotelreli\u00ebf, Jan Schoonhoven, 1963",
+        "showImage": false,
+        "permitDownload": false,
+        "webImage": {
+            "guid": "1d321143-e5e8-4452-a0e9-fc13f6a4ae32",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1881,
+            "height": 2500,
+            "url": "https://lh3.googleusercontent.com/8Zuq2V0qH_gxlcJ9BDu6HOcRGqWn7kxZyfYbFVWU4mlEXYM8mnWD_rbBTi7la88ZPgJl4m74kWHIWgSFoLytlqbikmk=s0"
+        },
+        "headerImage": {
+            "guid": "295aaf5d-148a-4c8c-8d9c-bc97d04f4cb1",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1881,
+            "height": 451,
+            "url": "https://lh3.googleusercontent.com/atv6ncvtB2pso5tt73XoPCDNDzpkoemHBwKfl5o06EMefJpQpEnO5ivJyOc-LI5m6wxIDXuEPLOmNfoH9LPDmjwYhso=s0"
+        },
+        "productionPlaces": [
+            "Delft",
+            "Delft"
+        ]
+    },
+    {
+        "links": {
+            "self": "http://www.rijksmuseum.nl/api/nl/collection/BK-1963-64",
+            "web": "http://www.rijksmuseum.nl/nl/collectie/BK-1963-64"
+        },
+        "id": "nl-BK-1963-64",
+        "objectNumber": "BK-1963-64",
+        "title": "Fontein en koelvat",
+        "hasImage": true,
+        "principalOrFirstMaker": "Alger Mensma",
+        "longTitle": "Fontein en koelvat, Alger Mensma (toegeschreven aan), 1731 - 1732",
+        "showImage": true,
+        "permitDownload": true,
+        "webImage": {
+            "guid": "6985dd5c-a217-46f5-962c-6d9bd338edc5",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1761,
+            "height": 2500,
+            "url": "https://lh5.ggpht.com/PF93ZLrsXKoUzyv5MGg1cgidCXnioYmTpZOgzwLz8VW9tdl6aDYE4cbp6GJPlu3rwF-MiaB4dHXdv3ReGHCiXrKLqaGz=s0"
+        },
+        "headerImage": {
+            "guid": "5d782292-898a-427c-8c95-b171cfea125b",
+            "offsetPercentageX": 0,
+            "offsetPercentageY": 0,
+            "width": 1920,
+            "height": 460,
+            "url": "https://lh6.ggpht.com/DSAxEe2dAM2Kf7jo44IMnhtiv4yIU_Sl-FCvMql3u-EzVJYokp_MrdZNjT3QTPiJz42wTG-PxCBweRFOTsNQFUdXZQ=s0"
+        },
+        "productionPlaces": [
+            "Amsterdam",
+            "Amsterdam"
+        ]
+    }
+]
