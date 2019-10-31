@@ -1,0 +1,12 @@
+{
+  "gallerijhouders": [
+    {
+      "gebruikersnaam": "Buitenkunst",
+      "wachtwoord": "Zwolle",
+      "email": "buitenkunst@buitenkunst.nl",
+      "kunst": [
+        "Karel Appel"
+      ]
+    }
+  ]
+}

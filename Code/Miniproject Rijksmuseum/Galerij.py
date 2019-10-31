@@ -3,10 +3,12 @@ import json
 class Galerij(object):
     """description of class"""
 
-    def __init__(self, gebruikersnaam, wachtwoord, email):
+    def __init__(self, gebruikersnaam, wachtwoord, straatnaam, huisnr, stad):
         self.gebruikersnaam = gebruikersnaam
         self.wachtwoord = wachtwoord
-        self.email = email
+        self.straatnaam = straatnaam
+        self.huisnr = huisnr
+        self.stad = stad
         self.kunst = []
 
     def login(self,gebruikersnaam, wachtwoord):
