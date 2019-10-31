@@ -28,12 +28,14 @@
     <Compile Include="Person.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Rijks_API_laad.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="alle_kunststuken.json" />
     <Content Include="KunstUitleen.txt" />
     <Content Include="galleries.json" />
     <Content Include="persoonsgegevens.json" />
-    <Content Include="test.json" />
+    <Content Include="search_result.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

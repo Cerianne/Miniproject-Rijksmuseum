@@ -5,7 +5,7 @@ from Person import Person
 listOfArt = []
 
 # laad de jsons in een python-leesbaar object
-with open('test.json') as f:
+with open('alle_kunststuken.json') as f:
     kunstdata = json.load(f)
 with open('galleries.json') as f:
     galleriedata = json.load(f)
@@ -13,7 +13,7 @@ with open('persoonsgegevens.json') as f:
     persoondata = json.load(f)
 
 # Zet alle kunstvoorwerpen in een lijst
-for kunst in kunstdata['artObjects']:
+for kunst in kunstdata:
     listOfArt.append(kunst['title'])
 
 print(listOfArt)
