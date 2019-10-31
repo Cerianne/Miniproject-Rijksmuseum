@@ -1,14 +1,21 @@
+import random
+
 class Person(object):
     """description of class"""
     def __init__(self, gebruikersnaam, email):
         self.gebruikersnaam = gebruikersnaam
         self.email = email
+        self.ticketnr = None
 
     def login(self,gebruikersnaam, email):
-        return True if self.gebruikersnaam == gebruikersnaam and self.email == email else False
-        #return self.gebruikersnaam == gebruikersnaam and self.wachtwoord == wachtwoord
+        if '@' in email and ('.com' or '.nl' in email):
+            return True 
+        else:
+            return "Dit is geen geldig mailadres. Probeer het nog eens."
 
-klaas = Person('Klaas','klaas@testen.com')
-print(klaas.login('Klaas','kareltje@banaan.com'))
-
+    def getCode(self, kunst):
+        # Todo: Zork het kunststuk op. Check of het uitgeleend is. Zo ja, genereer een code voor de bezoeker.
+        # De code word random gegenereerd met een randint, maar mag niet al bestaan! Zoek dit op in een .txt?
+        # Zo nee, meld dat dit kunststuk gewoon te zien is in het Rijksmuseum.
+        return
 

@@ -31,6 +31,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="KunstUitleen.txt" />
+    <Content Include="galleries.json" />
     <Content Include="test.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

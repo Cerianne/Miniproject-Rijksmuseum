@@ -1,3 +1,5 @@
+import json
+
 class Galerij(object):
     """description of class"""
 
@@ -15,9 +17,15 @@ class Galerij(object):
         self.kunst.append(kunst)
         return "Gefeliciteerd! je hebt '" + kunst + "' geleend."
 
+    def kunst_retourneren(self, kunst):
+
+        return
+
     def geleend(self):
         if len(self.kunst) > 0:
             return self.kunst
         else:
             return "Je hebt nog niets geleend!"
 
+    def sla_op(self):
+        return json.dumps(self.__dict__, indent=2)

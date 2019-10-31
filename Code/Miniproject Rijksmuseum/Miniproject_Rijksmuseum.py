@@ -4,19 +4,24 @@ from Person import Person
 
 listOfArt = []
 
-# laad de json in een python-leesbaar object
+# laad de jsons in een python-leesbaar object
 with open('test.json') as f:
-    data = json.load(f)
+    kunstdata = json.load(f)
+with open('galleries') as f:
+
 
 # Zet alle kunstvoorwerpen in een lijst
-for kunst in data['artObjects']:
+for kunst in kunstdata['artObjects']:
     listOfArt.append(kunst['title'])
+
+# Laa
 
 print(listOfArt)
 
 buitenkunst = Galerij('Buitenkunst','Zwolle', 'buitenkunst@buitenkunst.nl')
 print(buitenkunst.login('Buitenkunst','Zwolle'))
 print(buitenkunst.kunst_lenen('Karel Appel'))
+print(buitenkunst.sla_op())
 
 klaas = Person('Klaas','klaas@testen.com')
 print(klaas.login('Klaas','banaan'))
