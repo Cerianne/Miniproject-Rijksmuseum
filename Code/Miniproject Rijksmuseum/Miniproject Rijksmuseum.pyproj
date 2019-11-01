@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>98676f48-2266-4f2b-b3a5-ef7fe3d13651</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Miniproject_Rijksmuseum.py</StartupFile>
+    <StartupFile>projectx66.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,7 @@
     <Compile Include="Person.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="projectx66.py" />
     <Compile Include="Rijks_API_laad.py" />
   </ItemGroup>
   <ItemGroup>
