@@ -17,11 +17,15 @@ controle = Frame(root)
 selectie = Frame(root)
 ticketscherm = Frame(root)
 
+"""Hier loopt hij door de frames heen die er zijn."""
+
 for frame in(main, inloghouder, inloggebruiker, gebruiker, houder, nietgeleend, geleend, bezoekers, controle, selectie, ticketscherm):
     frame.grid(row=0, column=0, sticky='news')
 
 
 #mainscreen
+"""Het hoofdscherm met buttons om te kiezen tussen gebruiker of galeriehouder."""
+
 Label(main, text='').grid(row=0, column=1, pady=20)
 Label(main, text='Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
 Label(main, text='').grid(row=2, column=1)
@@ -31,6 +35,8 @@ Button(main, text='Gebruiker', command=lambda: raise_frame(inloggebruiker)).grid
 
 
 #inloggen gebruiker
+"""Invoeren van de gegevens van de gebruiker."""
+
 Label(inloggebruiker, text='').grid(row=0, column=1, pady=20)
 Label(inloggebruiker, text= 'Voer uw gegevens in:').grid(row=1, column=7, padx=50, pady=10)
 Label(inloggebruiker, text= '').grid(row=2,column=3)
@@ -49,6 +55,8 @@ Label(inloggebruiker, text= '').grid(row=7,column=3)
 Button(inloggebruiker, text= 'Terug', command= lambda: raise_frame(main)).grid(row=8, column=7)
 
 #inloggen galeriehouder
+"""Invoer van de inloggegevens van de galeriehouder."""
+
 Label(inloghouder, text='').grid(row=0, column=1, pady=20)
 Label(inloghouder, text= 'Voer uw gegevens in:').grid(row=1, column=7, padx=50, pady=10)
 Label(inloghouder, text= '').grid(row=2,column=3)
@@ -67,6 +75,8 @@ Label(inloghouder, text= '').grid(row=7,column=3)
 Button(inloghouder, text= 'Terug', command= lambda: raise_frame(main)).grid(row=8, column=7)
 
 #gebruiker
+"""Het keuze scherm van de gebruiker."""
+
 Label(gebruiker, text='').grid(row=0, column=1, pady=20)
 Label(gebruiker, text= 'Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
 Label(gebruiker, text='').grid(row =2, column=2)
@@ -86,6 +96,8 @@ Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).grid()
 Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).grid()
 
 #galeriehouder
+"""Het keuzemenu van de galeriehouder."""
+
 Label(houder, text='').grid(row=0, column=1)
 Label(houder, text= 'Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
 Label(houder, text='').grid(row=2, column=2)
@@ -101,6 +113,8 @@ Button(houder, text= 'Terug', command= lambda: raise_frame(main)).grid(row= 11, 
 
 
 #nietgeleend
+"""Overzicht van alle niet geleende kunststukken, mogelijkheid tot lenen."""
+
 Label(nietgeleend, text='Overzicht niet geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(nietgeleend)
 scrollbar.pack(side=RIGHT, fill=Y)
@@ -114,9 +128,11 @@ scrollbar.config( command = mylist.yview )
 
 Button(nietgeleend, text= 'Lenen').pack(pady=5)
 Button(nietgeleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=5)
-
+selectmode = SINGLE
 
 #geleend
+"""Overzicht van alle geleende kunststukken."""
+
 Label(geleend, text='Overzicht geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(geleend)
 scrollbar.pack(side=RIGHT, fill=Y)
@@ -129,9 +145,11 @@ mylist.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist.yview )
 
 Button(geleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=10)
-
+selectmode = SINGLE
 
 #bezoekers
+"""Overzicht van alle bezoekers."""
+
 Label(bezoekers, text='Overzicht van bezoekers:').pack(pady=20)
 scrollbar = Scrollbar(bezoekers)
 scrollbar.pack(side=RIGHT, fill=Y)
@@ -147,7 +165,10 @@ scrollbar.config(command=listbox.yview)
 
 Button(bezoekers, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=10)
 
+
 #controle
+"""Hier kunnen de afgegeven codes van het ticketscherm worden gecontroleerd."""
+
 Label(controle, text= '').grid(row=1, column=0, pady=20)
 Label(controle, text='Voer hier de code in:').grid(row=2, column=3, padx=125, pady=10)
 e1 = Entry(controle)
