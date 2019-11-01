@@ -1,5 +1,15 @@
 from tkinter import *
+import Jsonfiles
 
+#functies
+def login_galerij(naam, wachtwoord):
+    galerijdata = Jsonfiles.get_galerijdata()
+    for galerij in galerijdata['Gallerijhouders']:
+        if galerij['Gebruikersnaam'] == naam and galerij['Wachtwoord'] == wachtwoord:
+            raise_frame(houder)
+
+
+#Framework
 def raise_frame(frame):
     frame.tkraise()
 
@@ -45,18 +55,18 @@ Label(inloggebruiker, text= '').grid(row=7,column=3)
 Button(inloggebruiker, text= 'Terug', command= lambda: raise_frame(main)).grid(row=8, column=7)
 
 #inloggen galeriehouder
-Label(inloghouder, text= 'Voer uw gegevens in:').grid(row=1, column=7)
-Label(inloghouder, text= '').grid(row=2,column=3)
-Label(inloghouder, text= 'Naam').grid(row=3,column=5)
-Label(inloghouder, text= 'Wachtwoord').grid(row=4,column=5)
-Label(inloghouder, text= '').grid(row=5,column=3)
-Button(inloghouder, text='Login', command= lambda: raise_frame(houder)).grid(row=6, column=7)
-
 e3 = Entry(inloghouder)
 e4 = Entry(inloghouder)
 
 e3.grid(row=3, column=7)
 e4.grid(row=4, column=7)
+
+Label(inloghouder, text= 'Voer uw gegevens in:').grid(row=1, column=7)
+Label(inloghouder, text= '').grid(row=2,column=3)
+Label(inloghouder, text= 'Naam').grid(row=3,column=5)
+Label(inloghouder, text= 'Wachtwoord').grid(row=4,column=5)
+Label(inloghouder, text= '').grid(row=5,column=3)
+Button(inloghouder, text='Login', command= lambda: login_galerij(e3.get(),e4.get())).grid(row=6, column=7)
 
 Label(inloghouder, text= '').grid(row=7,column=3)
 Button(inloghouder, text= 'Terug', command= lambda: raise_frame(main)).grid(row=8, column=7)

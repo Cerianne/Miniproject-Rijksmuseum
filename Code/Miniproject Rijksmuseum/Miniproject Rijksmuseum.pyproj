@@ -24,6 +24,9 @@
     <Compile Include="Galerij.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Jsonfiles.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Miniproject_Rijksmuseum.py" />
     <Compile Include="Person.py">
       <SubType>Code</SubType>
@@ -33,7 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="alle_kunststuken.json" />
-    <Content Include="KunstUitleen.txt" />
+    <Content Include="KunstUitleen.json" />
     <Content Include="galleries.json" />
     <Content Include="persoonsgegevens.json" />
     <Content Include="search_result.json" />
