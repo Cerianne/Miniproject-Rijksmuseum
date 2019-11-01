@@ -1,40 +1,29 @@
 import json
 from Galerij import Galerij 
 from Person import Person
+import Jsonfiles
 
-dict_of_art = {}
-
-# laad de jsons in een python-leesbaar object
-with open('alle_kunststuken.json') as f:
-    kunstdata = json.load(f)
-with open('galleries.json') as f:
-    galleriedata = json.load(f)
-#with open('persoonsgegevens.json') as f:
-    #persoondata = json.load(f)
+#kunstdata = Jsonfiles.get_alle_kunstdata()
+#dict_of_art = []
 
 # Zet alle kunstvoorwerpen in een json
-for kunst in kunstdata:
-    dict_of_art[kunst['title']] = {'ObjectNumber': kunst['objectNumber'], 'Available': True }
+#for kunst in Jsonfiles.get_alle_kunstdata():
+    #dict_of_art.append( {"Naam": kunst['title'],'ObjectNumber': kunst['objectNumber'], 'Available': True })
 
-dict_of_art = json.dumps(dict_of_art,indent=2)
-print(dict_of_art)
+#for kunstwerk in Jsonfiles.get_kunstdata()['Kunststukken']:
+    #for item in kunstwerk[':
+        #print(item)
 
-#Maak wat testclasses aan
-buitenkunst = Galerij('Buitenkunst','Bu1tenKunst!', 'Assensestraat', '13', 'Zwolle')
-print(buitenkunst.kunst_lenen('Karel Appel'))
+#dict_of_art = Jsonfiles.get_alle_kunstdata()
+#for kunst in dict_of_art:
+    #dict_of_art['Kunststukken'] = {'Naam' : kunst['title'], 'ObjectNumber': kunst['objectNumber'], 'Available': True }
 
-#sla de galerie op in een .json
-with open ('galleries.json', 'a' ) as f:
-    f.writelines = buitenkunst.sla_op()
+#dict_of_art = json.dumps(dict_of_art,indent=2)
 
-klaas = Person('Klaas','klaas@testen.com')
-print(klaas.login('Klaas','banaan'))
+#with open ('KunstUitleen.json','w') as f:
+    #for item in dict_of_art:
+        #f.writelines(item)
 
-with open('KunstUitleen.txt', 'a') as f:
-    f.writelines(dict_of_art)
-
-def is_uitgeleend(naam_kunstwerk):
-    with open('KunstUitleen.txt', 'r') as f:
-        uitgeleend = f.readlines()
-        if naam_kunstwerk in uitgeleend:
-            return("Sorry, dit kunstwerk is al uitgeleend.")
+for kunstwerk in Jsonfiles.get_kunstdata():
+    if kunstwerk['Available'] == True:
+        print(kunstwerk['Available'])
