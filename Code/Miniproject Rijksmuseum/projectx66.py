@@ -2,11 +2,23 @@ from tkinter import *
 import Jsonfiles
 
 #functies
+
+'''checkt of de gallerijhouder bestaat, en de juiste inloggegevens heeft. Data word uit een .json gehaald.'''
 def login_galerij(naam, wachtwoord):
     galerijdata = Jsonfiles.get_galerijdata()
     for galerij in galerijdata['Gallerijhouders']:
         if galerij['Gebruikersnaam'] == naam and galerij['Wachtwoord'] == wachtwoord:
             raise_frame(houder)
+
+'''logt de gebruiker in. checkt enkel op een 'valide' mailadres.'''
+#def login_gebruiker(naam, email):
+    #persoondata = Jsonfiles.get_persoondata()
+    #for persoon in persoondata["Persoonsgegevens"]:
+        #if naam in persoon and email in persoon:
+            #raise_frame(bezoekers)
+    #if '@' in email and ('.com' or '.nl' in email):
+
+
 
 
 #Framework
@@ -87,7 +99,7 @@ Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
 
 Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
 
-#galeriehouder
+#houder
 
 Label(houder, text= 'Maak een keuze:').pack(pady= 15, padx=275)
 Button(houder, text= 'Overzicht niet geleende kunststukken', command= lambda: raise_frame(nietgeleend)).pack(pady=10)
@@ -104,10 +116,12 @@ scrollbar = Scrollbar(nietgeleend)
 scrollbar.pack(padx= 275, pady=20)
 
 mylist = Listbox(nietgeleend, yscrollcommand = scrollbar.set )
-for line in range(101):
-   mylist.insert(END,str(line))
+for kunstwerk in Jsonfiles.get_kunstdata():
+    if kunstwerk['Available'] == True:
+        mylist.insert(END, kunstwerk['Naam'])
 
-mylist.pack(pady=20, padx=275)
+#mylist.pack(pady=20, padx=275)
+mylist.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist.yview )
 
 Button(nietgeleend, text= 'Terug', command= lambda: raise_frame(houder)).pack()

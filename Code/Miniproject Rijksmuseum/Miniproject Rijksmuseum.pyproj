@@ -36,6 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="alle_kunststuken.json" />
+    <Content Include="KunstUitleen - Copy.json" />
     <Content Include="KunstUitleen.json" />
     <Content Include="galleries.json" />
     <Content Include="persoonsgegevens.json" />

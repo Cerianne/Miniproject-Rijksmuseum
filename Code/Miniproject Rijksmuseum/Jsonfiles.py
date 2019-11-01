@@ -8,7 +8,6 @@ def get_alle_kunstdata():
 def get_galerijdata():
     with open('galleries.json') as f:
         galleriedata = json.load(f)
-        print()
         return galleriedata
 
 def get_persoondata():
