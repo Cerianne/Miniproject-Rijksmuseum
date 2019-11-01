@@ -17,7 +17,7 @@
   {
     "Naam": "Blauwe ara",
     "ObjectNumber": "BK-17496",
-    "Available": true
+    "Available": false
   },
   {
     "Naam": "Pleurants van het praalgraf van Isabella van Bourbon",
@@ -147,7 +147,7 @@
   {
     "Naam": "Zelfportret",
     "ObjectNumber": "SK-A-3262",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Portret van een stel, waarschijnlijk Isaac Abrahamsz Massa en Beatrix van der Laen",
@@ -177,7 +177,7 @@
   {
     "Naam": "Stilleven met asperges",
     "ObjectNumber": "SK-A-2099",
-    "Available": true
+    "Available": false
   },
   {
     "Naam": "Een vrolijke vioolspeler",
@@ -332,7 +332,7 @@
   {
     "Naam": "Zelfportret",
     "ObjectNumber": "SK-A-4691",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Portret van Andries de Graeff",

@@ -6,8 +6,9 @@ import json
 ingelogd = ""
 
 #functies
-'''checkt of de gallerijhouder bestaat, en de juiste inloggegevens heeft. Data word uit een .json gehaald.'''
+
 def login_galerij(naam, wachtwoord):
+    '''checkt of de gallerijhouder bestaat, en de juiste inloggegevens heeft. Data word uit een .json gehaald.'''
     galerijdata = Jsonfiles.get_galerijdata()
     for galerij in galerijdata['Gallerijhouders']:
         if galerij['Gebruikersnaam'] == naam and galerij['Wachtwoord'] == wachtwoord:
@@ -46,6 +47,7 @@ def raise_frame(frame):
     frame.tkraise()
 
 root = Tk()
+
 
 main = Frame(root)
 inloghouder = Frame(root)
@@ -168,7 +170,7 @@ for kunstwerk in Jsonfiles.get_kunstdata():
 mylist.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist.yview )
 
-Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(ANCHOR))).pack(pady=5)
+Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()))).pack(pady=5)
 Button(nietgeleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=5)
 selectmode = SINGLE
 
@@ -179,13 +181,13 @@ Label(geleend, text='Overzicht geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(geleend)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist = Listbox(geleend, yscrollcommand = scrollbar.set )
+mylist2 = Listbox(geleend, yscrollcommand = scrollbar.set )
 for kunstwerk in Jsonfiles.get_kunstdata():
     if kunstwerk['Available'] == False:
-        mylist.insert(END, kunstwerk['Naam'])
+        mylist2.insert(END, kunstwerk['Naam'])
 
-mylist.pack(expand=1, fill=BOTH)
-scrollbar.config( command = mylist.yview )
+mylist2.pack(expand=1, fill=BOTH)
+scrollbar.config( command = mylist2.yview )
 
 Button(geleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=10)
 selectmode = SINGLE
@@ -200,7 +202,7 @@ scrollbar.pack(side=RIGHT, fill=Y)
 listbox= Listbox(bezoekers)
 listbox.pack(expand=1, fill=BOTH)
 
-for i in range(1001):                  #hier moet len van de lijst zijn, dus eerst regels opvragen
+for i in range(1001):                  #ToDo hier moet len van de lijst zijn, dus eerst regels opvragen
     listbox.insert(END, i)
 
 listbox.config(yscrollcommand=scrollbar.set)
