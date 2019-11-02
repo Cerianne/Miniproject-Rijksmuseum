@@ -59,7 +59,7 @@ def login_gebruiker(email):
             return
     if '@' in email and ('.com' or '.nl' in email):
         ingelogd = email
-        persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": {}})
+        persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": []})
         with open ('persoonsgegevens.json', 'w') as f:
             persoondata = json.dumps(persoondata,indent=2)
             f.writelines(persoondata)
@@ -68,8 +68,13 @@ def login_gebruiker(email):
         messagebox.showinfo("Helaas","Dit is geen geldig mailadres. Probeer het nog eens!")
     
 def get_ticket(kunststuk,gebruiker):
-    print(kunststuk + " " + gebruiker)
-
+    gebruikers = Jsonfiles.get_persoondata()
+    for persoongegevens in gebruikers["Persoonsgegevens"]:
+        if persoongegevens["Email"] == gebruiker:
+            persoongegevens["Kunststukken"].append(kunststuk)
+            gebruikers = json.dumps(gebruikers, indent=2)
+            with open("persoonsgegevens.json", "w") as file:
+                file.writelines(gebruikers)
 
 #Framework
 def raise_frame(frame):
@@ -167,15 +172,15 @@ Label(selectie, text='Selecteren van een kunststuk:').pack(pady=20)
 scrollbar = Scrollbar(selectie)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist = Listbox(selectie, yscrollcommand = scrollbar.set )
+mylist3 = Listbox(selectie, yscrollcommand = scrollbar.set )
 for kunstwerk in Jsonfiles.get_kunstdata():
-    mylist.insert(END, kunstwerk['Naam'])
+    mylist3.insert(END, kunstwerk['Naam'])
 
-mylist.pack(expand=1, fill=BOTH)
-scrollbar.config( command = mylist.yview )
+mylist3.pack(expand=1, fill=BOTH)
+scrollbar.config( command = mylist3.yview )
 
 Button(selectie, text= 'Bekijk').pack(side=LEFT, pady=5)
-Button(selectie, text= 'Selecteren', command=lambda: get_ticket(mylist.get(mylist.curselection()),ingelogd)).pack(side=RIGHT, pady=5)
+Button(selectie, text= 'Selecteren', command=lambda: get_ticket(mylist3.get(mylist3.curselection()),ingelogd)).pack(side=RIGHT, pady=5)
 #Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()))).pack(pady=5)
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
