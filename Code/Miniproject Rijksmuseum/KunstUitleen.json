@@ -17,7 +17,7 @@
   {
     "Naam": "Blauwe ara",
     "ObjectNumber": "BK-17496",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Pleurants van het praalgraf van Isabella van Bourbon",
@@ -27,7 +27,7 @@
   {
     "Naam": "Kan met deksel",
     "ObjectNumber": "BK-1976-75",
-    "Available": true
+    "Available": false
   },
   {
     "Naam": "Stilleven met vergulde bokaal",
@@ -177,7 +177,7 @@
   {
     "Naam": "Stilleven met asperges",
     "ObjectNumber": "SK-A-2099",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Een vrolijke vioolspeler",

@@ -42,6 +42,7 @@ def login_gebruiker(email):
         if email == persoon['Email']:
             ingelogd = email
             raise_frame(gebruiker)
+            return
     if '@' in email and ('.com' or '.nl' in email):
         ingelogd = email
         persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": {}})
@@ -144,12 +145,40 @@ Label(gebruiker, text='').grid(row=6, column=3, pady=10)
 Button(gebruiker, text= 'Terug', command= lambda: raise_frame(main)).grid(row=7, column=3)
 
 #selectie
+"""Hier kan de bezoeker een kunststuk selecteren en mogelijk alvast een voorbeeld van zien"""
 
-Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).grid()
+Label(selectie, text='Selecteren van een kunststuk:').pack(pady=20)
+scrollbar = Scrollbar(selectie)
+scrollbar.pack(side=RIGHT, fill=Y)
+
+mylist = Listbox(selectie, yscrollcommand = scrollbar.set )
+for kunstwerk in Jsonfiles.get_kunstdata():
+    mylist.insert(END, kunstwerk['Naam'])
+
+mylist.pack(expand=1, fill=BOTH)
+scrollbar.config( command = mylist.yview )
+
+Button(selectie, text= 'Bekijk').pack(side=LEFT, pady=5)
+Button(selectie, text= 'Selecteren', command=lambda: messagebox.showinfo("Success!","Het lenen is gelukt!")).pack(side=RIGHT, pady=5)
+Label(selectie, text='').pack(fill=X)
+Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
+
+selectmode = SINGLE
 
 #ticketscherm
 
-Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).grid()
+Label(ticketscherm, text='').grid(row=0, column=1, pady=15)
+Label(ticketscherm, text='naam').grid(row=1, column=3, padx=150)                           #hier moet ingevoerde naam inkomen
+Label(ticketscherm, text='').grid(row=2, column=2)
+Label(ticketscherm, text='code').grid(row=3, column=3, pady=10)                           #hier moet de code komen
+Label(ticketscherm, text='').grid(row=4, column=0)
+Label(ticketscherm, text='Geselecteerde kunststuk:').grid(row=5, column=3)
+Label(ticketscherm, text='').grid(row=6, column=3)
+Label(ticketscherm, text='naam kunststuk').grid(row=7, column=3)                                    #hier moet de naam van het kunststuk komen
+
+
+Label(ticketscherm, text='').grid(row=8, column=3, pady=10)
+Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).grid(row=9, column=3)
 
 #galeriehouder
 """Het keuzemenu van de galeriehouder."""
