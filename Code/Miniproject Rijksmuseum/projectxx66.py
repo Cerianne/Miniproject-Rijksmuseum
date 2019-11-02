@@ -4,6 +4,7 @@ import Jsonfiles
 import json
 
 ingelogd = ""
+listboxplaceholder = Listbox()
 
 #functies
 
@@ -37,6 +38,14 @@ def leen_item(kunststuk, listbox):
                 if kunstwerk['Available'] == True:
                     listbox.insert(END, kunstwerk['Naam'])
             messagebox.showinfo("Success!","Het lenen is gelukt!")
+
+def get_geleende_items(listbox,gebruiker):
+    listbox.delete(0,END)
+    galerijdata = Jsonfiles.get_galerijdata()
+    for galerij in galerijdata["Gallerijhouders"]:
+        if gebruiker == galerij["Gebruikersnaam"]:
+            for kunststuk in galerij["Kunst"]:
+                listbox.insert(END, kunststuk)
 
 
 '''logt de gebruiker in. checkt enkel op een 'valide' mailadres.'''
@@ -190,12 +199,18 @@ Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).gri
 #galeriehouder
 """Het keuzemenu van de galeriehouder."""
 
+def imBadAtNames(geleend, listbox, gebruiker):
+    raise_frame(geleend)
+    get_geleende_items(listbox, gebruiker)
+
 Label(houder, text='').grid(row=0, column=1)
 Label(houder, text= 'Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
 Label(houder, text='').grid(row=2, column=2)
 Button(houder, text= 'Overzicht niet geleende kunststukken', command= lambda: raise_frame(nietgeleend)).grid(row=3, column=3)
 Label(houder, text='').grid(row=4, column=2)
-Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
+#Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
+Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: imBadAtNames(geleend, listboxplaceholder, ingelogd)).grid(row=5, column=3)
+#Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
 Label(houder, text='').grid(row=6, column=2)
 Button(houder, text= 'Overzicht van bezoekers',command= lambda: raise_frame(bezoekers)).grid(row=7, column=3)
 Label(houder, text='').grid(row=8, column=2)
@@ -230,10 +245,10 @@ Label(geleend, text='Overzicht geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(geleend)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist2 = Listbox(geleend, yscrollcommand = scrollbar.set )
-for kunstwerk in Jsonfiles.get_kunstdata():
-    if kunstwerk['Available'] == False:
-        mylist2.insert(END, kunstwerk['Naam'])
+mylist2 = listboxplaceholder
+#mylist2 = Listbox(geleend, yscrollcommand = scrollbar.set )
+
+get_geleende_items(mylist2,ingelogd)
 
 mylist2.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist2.yview )

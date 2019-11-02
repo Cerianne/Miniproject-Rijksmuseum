@@ -6,7 +6,9 @@
       "Straatnaam": "Assensestraat",
       "Huisnr": "12",
       "Stad": "Zwolle",
-      "Kunst": []
+      "Kunst": [
+        "Bureau"
+      ]
     },
     {
       "Gebruikersnaam": "Felix",
