@@ -16,7 +16,8 @@ def login_galerij(naam, wachtwoord):
             ingelogd = naam
             raise_frame(houder)
 
-def leen_item(kunststuk):
+'''Leent een beschikbaar item uit aan een galerijhouder, en zet deze daarna op uitgeleend.'''
+def leen_item(kunststuk, listbox):
     galerijdata = Jsonfiles.get_galerijdata()
     for galerij in galerijdata['Gallerijhouders']:
         if galerij['Gebruikersnaam'] == ingelogd:
@@ -31,6 +32,10 @@ def leen_item(kunststuk):
             with open('KunstUitleen.json','w') as f:
                 kunstdata = json.dumps(kunstdata,indent=2)
                 f.writelines(kunstdata)
+            listbox.delete(0, END)
+            for kunstwerk in Jsonfiles.get_kunstdata():
+                if kunstwerk['Available'] == True:
+                    listbox.insert(END, kunstwerk['Naam'])
             messagebox.showinfo("Success!","Het lenen is gelukt!")
 
 
@@ -53,6 +58,8 @@ def login_gebruiker(email):
     else:
         messagebox.showinfo("Helaas","Dit is geen geldig mailadres. Probeer het nog eens!")
     
+def get_ticket(kunststuk,gebruiker):
+    print(kunststuk + " " + gebruiker)
 
 
 #Framework
@@ -159,10 +166,10 @@ mylist.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist.yview )
 
 Button(selectie, text= 'Bekijk').pack(side=LEFT, pady=5)
-Button(selectie, text= 'Selecteren', command=lambda: messagebox.showinfo("Success!","Het lenen is gelukt!")).pack(side=RIGHT, pady=5)
+Button(selectie, text= 'Selecteren', command=lambda: get_ticket(mylist.get(mylist.curselection()),ingelogd)).pack(side=RIGHT, pady=5)
+#Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()))).pack(pady=5)
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
-
 selectmode = SINGLE
 
 #ticketscherm
@@ -212,7 +219,7 @@ for kunstwerk in Jsonfiles.get_kunstdata():
 mylist.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist.yview )
 
-Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()))).pack(pady=5)
+Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()),mylist)).pack(pady=5)
 Button(nietgeleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=5)
 selectmode = SINGLE
 
