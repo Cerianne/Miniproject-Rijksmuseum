@@ -24,6 +24,15 @@
       "Naam": "",
       "Email": "test@test.com",
       "Kunststukken": []
+    },
+    {
+      "Naam": "",
+      "Email": "t@t.com",
+      "Kunststukken": [
+        "Kan met deksel",
+        "Bureau",
+        "De welvoorziene keuken"
+      ]
     }
   ]
 }

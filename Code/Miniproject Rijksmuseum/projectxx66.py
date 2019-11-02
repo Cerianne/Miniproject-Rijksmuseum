@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import Jsonfiles
 import json
+import IMG_tkinter as img
 
 ingelogd = ""
 listboxplaceholder = Listbox()
@@ -172,16 +173,15 @@ Label(selectie, text='Selecteren van een kunststuk:').pack(pady=20)
 scrollbar = Scrollbar(selectie)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist3 = Listbox(selectie, yscrollcommand = scrollbar.set )
+list_selectie_kunstwerken = Listbox(selectie, yscrollcommand = scrollbar.set)
 for kunstwerk in Jsonfiles.get_kunstdata():
-    mylist3.insert(END, kunstwerk['Naam'])
+    list_selectie_kunstwerken.insert(END, kunstwerk['Naam'])
 
-mylist3.pack(expand=1, fill=BOTH)
-scrollbar.config( command = mylist3.yview )
+list_selectie_kunstwerken.pack(expand=1, fill=BOTH)
+scrollbar.config(command = list_selectie_kunstwerken.yview)
 
-Button(selectie, text= 'Bekijk').pack(side=LEFT, pady=5)
-Button(selectie, text= 'Selecteren', command=lambda: get_ticket(mylist3.get(mylist3.curselection()),ingelogd)).pack(side=RIGHT, pady=5)
-#Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()))).pack(pady=5)
+Button(selectie, text= 'Bekijk', command=lambda: img.showIMG(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()))).pack(side=LEFT, pady=5)
+Button(selectie, text= 'Selecteren', command=lambda: get_ticket(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), ingelogd)).pack(side=RIGHT, pady=5)
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
 selectmode = SINGLE
@@ -189,13 +189,13 @@ selectmode = SINGLE
 #ticketscherm
 
 Label(ticketscherm, text='').grid(row=0, column=1, pady=15)
-Label(ticketscherm, text='naam').grid(row=1, column=3, padx=150)                           #hier moet ingevoerde naam inkomen
+Label(ticketscherm, text='naam').grid(row=1, column=3, padx=150)                            #TODO hier moet ingevoerde naam inkomen
 Label(ticketscherm, text='').grid(row=2, column=2)
-Label(ticketscherm, text='code').grid(row=3, column=3, pady=10)                           #hier moet de code komen
+Label(ticketscherm, text='code').grid(row=3, column=3, pady=10)                             #TODO hier moet de code komen
 Label(ticketscherm, text='').grid(row=4, column=0)
 Label(ticketscherm, text='Geselecteerde kunststuk:').grid(row=5, column=3)
 Label(ticketscherm, text='').grid(row=6, column=3)
-Label(ticketscherm, text='naam kunststuk').grid(row=7, column=3)                                    #hier moet de naam van het kunststuk komen
+Label(ticketscherm, text= "").grid(row=7, column=3)                                         #TODO hier moet de naam van het kunststuk komen
 
 
 Label(ticketscherm, text='').grid(row=8, column=3, pady=10)
@@ -231,15 +231,15 @@ Label(nietgeleend, text='Overzicht niet geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(nietgeleend)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist = Listbox(nietgeleend, yscrollcommand = scrollbar.set )
+list_niet_geleende_kunstwerken = Listbox(nietgeleend, yscrollcommand = scrollbar.set)
 for kunstwerk in Jsonfiles.get_kunstdata():
     if kunstwerk['Available'] == True:
-        mylist.insert(END, kunstwerk['Naam'])
+        list_niet_geleende_kunstwerken.insert(END, kunstwerk['Naam'])
 
-mylist.pack(expand=1, fill=BOTH)
-scrollbar.config( command = mylist.yview )
+list_niet_geleende_kunstwerken.pack(expand=1, fill=BOTH)
+scrollbar.config(command = list_niet_geleende_kunstwerken.yview)
 
-Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()),mylist)).pack(pady=5)
+Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(list_niet_geleende_kunstwerken.get(list_niet_geleende_kunstwerken.curselection()), list_niet_geleende_kunstwerken)).pack(pady=5)
 Button(nietgeleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=5)
 selectmode = SINGLE
 
@@ -250,13 +250,13 @@ Label(geleend, text='Overzicht geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(geleend)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist2 = listboxplaceholder
+list_geleende_kunstwerken = listboxplaceholder
 #mylist2 = Listbox(geleend, yscrollcommand = scrollbar.set )
 
-get_geleende_items(mylist2,ingelogd)
+get_geleende_items(list_geleende_kunstwerken, ingelogd)
 
-mylist2.pack(expand=1, fill=BOTH)
-scrollbar.config( command = mylist2.yview )
+list_geleende_kunstwerken.pack(expand=1, fill=BOTH)
+scrollbar.config(command = list_geleende_kunstwerken.yview)
 
 Button(geleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=10)
 selectmode = SINGLE
