@@ -2,7 +2,7 @@
   {
     "Naam": "Zelfportret",
     "ObjectNumber": "BK-2000-17",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Klok en kruithoorn",
@@ -12,12 +12,12 @@
   {
     "Naam": "Bureau",
     "ObjectNumber": "BK-16676",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Blauwe ara",
     "ObjectNumber": "BK-17496",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Pleurants van het praalgraf van Isabella van Bourbon",
@@ -27,7 +27,7 @@
   {
     "Naam": "Kan met deksel",
     "ObjectNumber": "BK-1976-75",
-    "Available": false
+    "Available": true
   },
   {
     "Naam": "Stilleven met vergulde bokaal",

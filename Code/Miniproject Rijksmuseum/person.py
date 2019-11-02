@@ -3,7 +3,7 @@ import json
 
 class Person(object):
     """description of class"""
-    def __init__(self, gebruikersnaam, email,):
+    def __init__(self, gebruikersnaam, email):
         self.gebruikersnaam = gebruikersnaam
         self.email = email
         self.ticketnr = []
