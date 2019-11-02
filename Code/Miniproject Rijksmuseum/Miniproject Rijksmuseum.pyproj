@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>98676f48-2266-4f2b-b3a5-ef7fe3d13651</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>projectx66.py</StartupFile>
+    <StartupFile>projectxx66.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,16 +31,20 @@
     <Compile Include="Person.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="projectx66.py" />
+    <Compile Include="projectxx66.py" />
     <Compile Include="Rijks_API_laad.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="alle_kunststuken.json" />
-    <Content Include="KunstUitleen - Copy.json" />
+    <Content Include="oud\KunstUitleen - Copy.json" />
+    <Content Include="oud\galleries.json" />
     <Content Include="KunstUitleen.json" />
     <Content Include="galleries.json" />
     <Content Include="persoonsgegevens.json" />
     <Content Include="search_result.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="oud\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

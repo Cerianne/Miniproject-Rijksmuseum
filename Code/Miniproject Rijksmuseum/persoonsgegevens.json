@@ -1,22 +1,24 @@
 {
   "Persoonsgegevens": [
     {
-      "Naam" : "Klaas",
+      "Naam": "Klaas",
       "Email": "Klaasdegroot@gmail.com",
-      "kunststukken": {
-      }
+      "kunststukken": {}
     },
     {
-      "Naam" : "Micha", 
+      "Naam": "Micha",
       "Email": "drumstel@gmail.com",
-      "kunststukken": {
-      }
+      "kunststukken": {}
     },
     {
       "Naam": "Sasha",
       "Email": "sashiiee123@live.nl",
-      "kunststukken": {
-      }
+      "kunststukken": {}
+    },
+    {
+      "Naam": "",
+      "Email": "Appeltje@peer.nl",
+      "Kunststukken": {}
     }
   ]
 }

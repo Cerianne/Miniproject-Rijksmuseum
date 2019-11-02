@@ -1,0 +1,20 @@
+{
+  "Gallerijhouders": [
+    {
+      "Gebruikersnaam": "Buitenkunst",
+      "Wachtwoord": "Bu!tenkunst",
+      "Straatnaam": "Assensestraat",
+      "Huisnr": "12",
+      "Stad": "Zwolle",
+      "Kunst": []
+    },
+    {
+      "Gebruikersnaam": "Felix",
+      "Wachtwoord": "ikhoudvankatten",
+      "Straatnaam": "poezenstraat",
+      "Huisnr": "4",
+      "Stad": "Katwijk aan Zee",
+      "Kunst": []
+    }
+  ]
+}
