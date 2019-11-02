@@ -29,7 +29,7 @@ for frame in(main, inloghouder, inloggebruiker, gebruiker, houder, nietgeleend, 
 
 Label(main, text='').grid(row=0, column=1, pady=20)
 Label(main, text='Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
-Label(main, text='').grid(row=2, column=1)
+Label(main, text='').grid(row=2, column=3)
 Button(main, text='Galeriehouder', command=lambda: raise_frame(inloghouder)).grid(row=3, column=3)
 Label(main, text='').grid(row=4, column=2)
 Button(main, text='Gebruiker', command=lambda: raise_frame(inloggebruiker)).grid(row=5, column=3)
@@ -113,7 +113,7 @@ selectmode = SINGLE
 #ticketscherm
 
 Label(ticketscherm, text='').grid(row=0, column=1, pady=15)
-Label(ticketscherm, text='Email-adres').grid(row=1, column=3, padx=150)                           #hier moet ingevoerde email-adres inkomen
+Label(ticketscherm, text='Email-adres').grid(row=1, column=3, padx=135)                           #hier moet ingevoerde email-adres inkomen
 Label(ticketscherm, text='').grid(row=2, column=2)
 Label(ticketscherm, text='code').grid(row=3, column=3, pady=10)                           #hier moet de code komen
 Label(ticketscherm, text='').grid(row=4, column=0)
@@ -138,7 +138,7 @@ Label(houder, text='').grid(row=6, column=2)
 Button(houder, text= 'Bezoekers',command= lambda: raise_frame(bezoekers)).grid(row=7, column=3)
 Label(houder, text='').grid(row=8, column=2)
 Button(houder, text= 'Ticket controle', command= lambda: raise_frame(controle)).grid(row=9, column=3)
-Label(houder, text='').grid(row=10, column=2, pady=10)
+Label(houder, text='').grid(row=10, column=3, pady=10)
 Button(houder, text= 'Terug', command= lambda: raise_frame(main)).grid(row= 11, column=3)
 
 
@@ -212,7 +212,7 @@ Button(controle, text= 'Terug', command= lambda: raise_frame(houder)).grid(row=6
 root.title('Thuisgalerie')
 
 """"De geometry geeft aan hoe groot het frame moet zijn."""
-root.geometry('360x360')
+root.geometry('385x360')
 
 """Zorgt dat het mainscreen altijd als eerste wordt geopend"""
 raise_frame(main)
