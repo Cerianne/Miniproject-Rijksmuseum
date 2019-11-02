@@ -35,12 +35,24 @@ def leen_item(kunststuk):
 
 
 '''logt de gebruiker in. checkt enkel op een 'valide' mailadres.'''
-#def login_gebruiker(naam, email):
-    #persoondata = Jsonfiles.get_persoondata()
-    #for persoon in persoondata["Persoonsgegevens"]:
-        #if naam in persoon and email in persoon:
-            #raise_frame(bezoekers)
-    #if '@' in email and ('.com' or '.nl' in email):
+def login_gebruiker(email):
+    global ingelogd
+    persoondata = Jsonfiles.get_persoondata()
+    for persoon in persoondata["Persoonsgegevens"]:
+        if email == persoon['Email']:
+            ingelogd = email
+            raise_frame(gebruiker)
+    if '@' in email and ('.com' or '.nl' in email):
+        ingelogd = email
+        persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": {}})
+        with open ('persoonsgegevens.json', 'w') as f:
+            persoondata = json.dumps(persoondata,indent=2)
+            f.writelines(persoondata)
+        raise_frame(gebruiker)
+    else:
+        messagebox.showinfo("Helaas","Dit is geen geldig mailadres. Probeer het nog eens!")
+    
+
 
 #Framework
 def raise_frame(frame):
@@ -70,6 +82,7 @@ for frame in(main, inloghouder, inloggebruiker, gebruiker, houder, nietgeleend, 
 #mainscreen
 """Het hoofdscherm met buttons om te kiezen tussen gebruiker of galeriehouder."""
 
+
 Label(main, text='').grid(row=0, column=1, pady=20)
 Label(main, text='Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
 Label(main, text='').grid(row=2, column=1)
@@ -81,19 +94,19 @@ Button(main, text='Gebruiker', command=lambda: raise_frame(inloggebruiker)).grid
 #inloggen gebruiker
 """Invoeren van de gegevens van de gebruiker."""
 
+e1 = Entry(inloggebruiker)
+e2 = Entry(inloggebruiker)
+
+e1.grid(row=3,column=7)
+e2.grid(row=4,column=7)
+
 Label(inloggebruiker, text='').grid(row=0, column=1, pady=20)
 Label(inloggebruiker, text= 'Voer uw gegevens in:').grid(row=1, column=7, padx=50, pady=10)
 Label(inloggebruiker, text= '').grid(row=2,column=3)
 Label(inloggebruiker, text= 'Naam').grid(row=3,column=5)
 Label(inloggebruiker, text= 'Email adres').grid(row=4,column=5)
 Label(inloggebruiker, text= '').grid(row=5,column=3)
-Button(inloggebruiker, text='Login', command= lambda: raise_frame(gebruiker)).grid(row=6,column=7)
-
-e1 = Entry(inloggebruiker)
-e2 = Entry(inloggebruiker)
-
-e1.grid(row=3,column=7)
-e2.grid(row=4,column=7)
+Button(inloggebruiker, text='Login', command= lambda: login_gebruiker(e2.get())).grid(row=6,column=7)
 
 Label(inloggebruiker, text= '').grid(row=7,column=3)
 Button(inloggebruiker, text= 'Terug', command= lambda: raise_frame(main)).grid(row=8, column=7)
