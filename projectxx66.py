@@ -42,9 +42,8 @@ Label(inloggebruiker, text='').grid(row=0, column=1, pady=20)
 Label(inloggebruiker, text= 'Voer uw gegeven in:').grid(row=1, column=7, padx=50, pady=10)
 Label(inloggebruiker, text= '').grid(row=2,column=3)
 Label(inloggebruiker, text= 'Email-adres').grid(row=3,column=5)
-checkbox = Checkbutton(inloggebruiker, text="Onthoud mijn gegeven")
-checkbox.grid(row=5, column=7, pady=10)
-Button(inloggebruiker, text='Inloggen', command= lambda: raise_frame(gebruiker)).grid(row=6,column=7)
+Label(inloggebruiker, text='').grid(row=4, column=1)
+Button(inloggebruiker, text='Inloggen', command= lambda: raise_frame(gebruiker)).grid(row=5,column=7)
 
 
 e2 = Entry(inloggebruiker)
@@ -62,8 +61,8 @@ Label(inloghouder, text= 'Voer uw gegevens in:').grid(row=1, column=7, padx=50, 
 Label(inloghouder, text= '').grid(row=2,column=3)
 Label(inloghouder, text= 'Naam').grid(row=3,column=5)
 Label(inloghouder, text= 'Wachtwoord').grid(row=4,column=5)
-checkbox = Checkbutton(inloghouder, text="Onthoud mijn gegevens")
-checkbox.grid(row=5, column=7, pady=10)
+checkbox1 = Checkbutton(inloghouder, text="Onthoud mijn gegevens")
+checkbox1.grid(row=5, column=7, pady=10)
 Button(inloghouder, text='Inloggen', command= lambda: raise_frame(houder)).grid(row=6, column=7)
 
 e3 = Entry(inloghouder)
@@ -212,7 +211,7 @@ Button(controle, text= 'Terug', command= lambda: raise_frame(houder)).grid(row=6
 root.title('Thuisgalerie')
 
 """"De geometry geeft aan hoe groot het frame moet zijn."""
-root.geometry('385x360')
+root.geometry('360x360')
 
 """Zorgt dat het mainscreen altijd als eerste wordt geopend"""
 raise_frame(main)
