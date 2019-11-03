@@ -5,7 +5,7 @@ import json
 import IMG_tkinter as img
 
 gebruikersNaam = ""
-geleendeKunstPlaceHolder = Listbox()
+
 
 #functies
 
@@ -153,7 +153,7 @@ Button(inloggebruiker, text= 'Terug', command= lambda: raise_frame(main)).grid(r
 #inloggen galeriehouder
 """Invoer van de inloggegevens van de galeriehouder."""
 e3 = Entry(inloghouder)
-e4 = Entry(inloghouder)
+e4 = Entry(inloghouder, show= "*")
 
 e3.grid(row=3, column=7)
 e4.grid(row=4, column=7)
@@ -276,8 +276,6 @@ def geleendeKunstKnop():
                 list_geleende_kunstwerken.insert(END, stukken)
 
 
-
-
 list_geleende_kunstwerken.pack(expand=1, fill=BOTH)
 scrollbar.config(command = list_geleende_kunstwerken.yview)
 Button(geleend, text= "Laad", command= lambda: geleendeKunstKnop()).pack(pady=10)
@@ -291,18 +289,15 @@ Label(bezoekers, text='Overzicht van bezoekers:').pack(pady=20)
 scrollbar = Scrollbar(bezoekers)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-lb_check_bezoekers= Listbox(bezoekers)
+lb_check_bezoekers = Listbox(bezoekers, yscrollcommand = scrollbar.set)
+
+
+
 lb_check_bezoekers.pack(expand=1, fill=BOTH)
-
-#for i in range(1001):                  #ToDo hier moet len van de lijst zijn, dus eerst regels opvragen
-#    lb_check_bezoekers.insert(END, i)
-
-get_bezoekers(lb_check_bezoekers,gebruiker)
-
 
 lb_check_bezoekers.config(yscrollcommand=scrollbar.set)
 scrollbar.config(command=lb_check_bezoekers.yview)
-
+Button(bezoekers, text= "Laad", command= lambda: get_bezoekers(lb_check_bezoekers,gebruikersNaam)).pack(pady=10)
 Button(bezoekers, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=10)
 
 
