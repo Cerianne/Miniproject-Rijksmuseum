@@ -6,7 +6,9 @@
       "Straatnaam": "Assensestraat",
       "Huisnr": "12",
       "Stad": "Zwolle",
-      "Kunst": []
+      "Kunst": [
+        "Bureau"
+      ]
     },
     {
       "Gebruikersnaam": "Felix",
@@ -16,7 +18,8 @@
       "Stad": "Katwijk aan Zee",
       "Kunst": [
         "Zelfportret",
-        "Kan met deksel"
+        "Kan met deksel",
+        "Blauwe ara"
       ]
     }
   ]

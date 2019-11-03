@@ -4,6 +4,7 @@ import Jsonfiles
 import json
 
 ingelogd = ""
+listboxplaceholder = Listbox()
 
 #functies
 
@@ -16,7 +17,8 @@ def login_galerij(naam, wachtwoord):
             ingelogd = naam
             raise_frame(houder)
 
-def leen_item(kunststuk):
+'''Leent een beschikbaar item uit aan een galerijhouder, en zet deze daarna op uitgeleend.'''
+def leen_item(kunststuk, listbox):
     galerijdata = Jsonfiles.get_galerijdata()
     for galerij in galerijdata['Gallerijhouders']:
         if galerij['Gebruikersnaam'] == ingelogd:
@@ -31,7 +33,19 @@ def leen_item(kunststuk):
             with open('KunstUitleen.json','w') as f:
                 kunstdata = json.dumps(kunstdata,indent=2)
                 f.writelines(kunstdata)
+            listbox.delete(0, END)
+            for kunstwerk in Jsonfiles.get_kunstdata():
+                if kunstwerk['Available'] == True:
+                    listbox.insert(END, kunstwerk['Naam'])
             messagebox.showinfo("Success!","Het lenen is gelukt!")
+
+def get_geleende_items(listbox,gebruiker):
+    listbox.delete(0,END)
+    galerijdata = Jsonfiles.get_galerijdata()
+    for galerij in galerijdata["Gallerijhouders"]:
+        if gebruiker == galerij["Gebruikersnaam"]:
+            for kunststuk in galerij["Kunst"]:
+                listbox.insert(END, kunststuk)
 
 
 '''logt de gebruiker in. checkt enkel op een 'valide' mailadres.'''
@@ -45,7 +59,7 @@ def login_gebruiker(email):
             return
     if '@' in email and ('.com' or '.nl' in email):
         ingelogd = email
-        persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": {}})
+        persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": []})
         with open ('persoonsgegevens.json', 'w') as f:
             persoondata = json.dumps(persoondata,indent=2)
             f.writelines(persoondata)
@@ -53,7 +67,14 @@ def login_gebruiker(email):
     else:
         messagebox.showinfo("Helaas","Dit is geen geldig mailadres. Probeer het nog eens!")
     
-
+def get_ticket(kunststuk,gebruiker):
+    gebruikers = Jsonfiles.get_persoondata()
+    for persoongegevens in gebruikers["Persoonsgegevens"]:
+        if persoongegevens["Email"] == gebruiker:
+            persoongegevens["Kunststukken"].append(kunststuk)
+            gebruikers = json.dumps(gebruikers, indent=2)
+            with open("persoonsgegevens.json", "w") as file:
+                file.writelines(gebruikers)
 
 #Framework
 def raise_frame(frame):
@@ -151,18 +172,18 @@ Label(selectie, text='Selecteren van een kunststuk:').pack(pady=20)
 scrollbar = Scrollbar(selectie)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist = Listbox(selectie, yscrollcommand = scrollbar.set )
+mylist3 = Listbox(selectie, yscrollcommand = scrollbar.set )
 for kunstwerk in Jsonfiles.get_kunstdata():
-    mylist.insert(END, kunstwerk['Naam'])
+    mylist3.insert(END, kunstwerk['Naam'])
 
-mylist.pack(expand=1, fill=BOTH)
-scrollbar.config( command = mylist.yview )
+mylist3.pack(expand=1, fill=BOTH)
+scrollbar.config( command = mylist3.yview )
 
 Button(selectie, text= 'Bekijk').pack(side=LEFT, pady=5)
-Button(selectie, text= 'Selecteren', command=lambda: messagebox.showinfo("Success!","Het lenen is gelukt!")).pack(side=RIGHT, pady=5)
+Button(selectie, text= 'Selecteren', command=lambda: get_ticket(mylist3.get(mylist3.curselection()),ingelogd)).pack(side=RIGHT, pady=5)
+#Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()))).pack(pady=5)
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
-
 selectmode = SINGLE
 
 #ticketscherm
@@ -183,12 +204,18 @@ Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).gri
 #galeriehouder
 """Het keuzemenu van de galeriehouder."""
 
+def imBadAtNames(geleend, listbox, gebruiker):
+    raise_frame(geleend)
+    get_geleende_items(listbox, gebruiker)
+
 Label(houder, text='').grid(row=0, column=1)
 Label(houder, text= 'Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
 Label(houder, text='').grid(row=2, column=2)
 Button(houder, text= 'Overzicht niet geleende kunststukken', command= lambda: raise_frame(nietgeleend)).grid(row=3, column=3)
 Label(houder, text='').grid(row=4, column=2)
-Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
+#Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
+Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: imBadAtNames(geleend, listboxplaceholder, ingelogd)).grid(row=5, column=3)
+#Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
 Label(houder, text='').grid(row=6, column=2)
 Button(houder, text= 'Overzicht van bezoekers',command= lambda: raise_frame(bezoekers)).grid(row=7, column=3)
 Label(houder, text='').grid(row=8, column=2)
@@ -212,7 +239,7 @@ for kunstwerk in Jsonfiles.get_kunstdata():
 mylist.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist.yview )
 
-Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()))).pack(pady=5)
+Button(nietgeleend, text= 'Lenen', command= lambda: leen_item(mylist.get(mylist.curselection()),mylist)).pack(pady=5)
 Button(nietgeleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=5)
 selectmode = SINGLE
 
@@ -223,10 +250,10 @@ Label(geleend, text='Overzicht geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(geleend)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-mylist2 = Listbox(geleend, yscrollcommand = scrollbar.set )
-for kunstwerk in Jsonfiles.get_kunstdata():
-    if kunstwerk['Available'] == False:
-        mylist2.insert(END, kunstwerk['Naam'])
+mylist2 = listboxplaceholder
+#mylist2 = Listbox(geleend, yscrollcommand = scrollbar.set )
+
+get_geleende_items(mylist2,ingelogd)
 
 mylist2.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist2.yview )
