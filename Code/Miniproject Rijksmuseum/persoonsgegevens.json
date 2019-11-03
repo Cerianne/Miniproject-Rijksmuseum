@@ -3,17 +3,17 @@
     {
       "Naam": "Klaas",
       "Email": "Klaasdegroot@gmail.com",
-      "kunststukken": []
+      "Kunststukken": []
     },
     {
       "Naam": "Micha",
       "Email": "drumstel@gmail.com",
-      "kunststukken": []
+      "Kunststukken": []
     },
     {
       "Naam": "Sasha",
       "Email": "sashiiee123@live.nl",
-      "kunststukken": []
+      "Kunststukken": []
     },
     {
       "Naam": "",
@@ -33,6 +33,11 @@
         "Bureau",
         "De welvoorziene keuken"
       ]
+    },
+    {
+      "Naam": "",
+      "Email": "pietje@deboer.nl",
+      "Kunststukken": []
     }
   ]
 }
