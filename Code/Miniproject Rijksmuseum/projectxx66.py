@@ -18,8 +18,9 @@ def login_galerij(naam, wachtwoord):
             gebruikersNaam = naam
             raise_frame(houder)
 
-'''Leent een beschikbaar item uit aan een galerijhouder, en zet deze daarna op uitgeleend.'''
+
 def leen_item(kunststuk, listbox):
+    '''Leent een beschikbaar item uit aan een galerijhouder, en zet deze daarna op uitgeleend.'''
     galerijdata = Jsonfiles.get_galerijdata()
     for galerij in galerijdata['Gallerijhouders']:
         if galerij['Gebruikersnaam'] == gebruikersNaam:
@@ -39,17 +40,18 @@ def leen_item(kunststuk, listbox):
 
             messagebox.showinfo("Success!","Het lenen is gelukt!")
 
-'''Geeft de geleende items van de gebruiker'''
+
 def get_geleende_items(listbox,gebruiker):
-    listbox.delete(0,END)
+    '''Geeft de geleende items van de gebruiker'''
     galerijdata = Jsonfiles.get_galerijdata()
     for galerij in galerijdata["Gallerijhouders"]:
         if gebruiker == galerij["Gebruikersnaam"]:
             for kunststuk in galerij["Kunst"]:
                 listbox.insert(END, kunststuk)
 
-'''zoekt op wie er naar de galerij komen'''
+
 def get_bezoekers(lb,gebruiker):
+    '''zoekt op wie er naar de galerij komen'''
     lijst_van_kunst = []
     galerijdata = Jsonfiles.get_galerijdata()
     persoonsdata = Jsonfiles.get_persoondata()
@@ -63,8 +65,9 @@ def get_bezoekers(lb,gebruiker):
 
 
 
-'''logt de gebruiker in. checkt enkel op een 'valide' mailadres.'''
+
 def login_gebruiker(email):
+    '''logt de gebruiker in. checkt enkel op een 'valide' mailadres.'''
     global gebruikersNaam
     persoondata = Jsonfiles.get_persoondata()
     for persoon in persoondata["Persoonsgegevens"]:
@@ -81,8 +84,9 @@ def login_gebruiker(email):
     else:
         messagebox.showinfo("Helaas","Dit is geen geldig mailadres. Probeer het nog eens!")
  
-'''Maakt een uniek ticket voor de klant.'''
-def get_ticket(kunststuk,gebruiker):
+
+def set_gebruiker_kunstwerk(kunststuk,gebruiker):
+    '''Zorgt dat het kunstwerk bij de persoonsgegevens komt te staan.'''
     gebruikers = Jsonfiles.get_persoondata()
     for persoongegevens in gebruikers["Persoonsgegevens"]:
         if persoongegevens["Email"] == gebruiker:
@@ -193,7 +197,7 @@ list_selectie_kunstwerken.pack(expand=1, fill=BOTH)
 scrollbar.config(command = list_selectie_kunstwerken.yview)
 
 Button(selectie, text= 'Bekijk', command=lambda: img.showIMG(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()))).pack(side=LEFT, pady=5)
-Button(selectie, text= 'Selecteren', command=lambda: get_ticket(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam)).pack(side=RIGHT, pady=5)
+Button(selectie, text= 'Selecteren', command=lambda: set_gebruiker_kunstwerk(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam)).pack(side=RIGHT, pady=5)
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
 selectmode = SINGLE
@@ -216,17 +220,19 @@ Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).gri
 #galeriehouder
 """Het keuzemenu van de galeriehouder."""
 
-def hardcoding_the_damned_listbox(geleend, listbox, gebruiker):
-    raise_frame(geleend)
-    get_geleende_items(listbox, gebruiker)
+# def hardcoding_the_damned_listbox(geleend, listbox, gebruiker):
+#     raise_frame(geleend)
+#     get_geleende_items(listbox, gebruiker)
+
+
 
 Label(houder, text='').grid(row=0, column=1)
 Label(houder, text= 'Maak een keuze:').grid(row=1, column=3, padx=125, pady=10)
 Label(houder, text='').grid(row=2, column=2)
 Button(houder, text= 'Overzicht niet geleende kunststukken', command= lambda: raise_frame(nietgeleend)).grid(row=3, column=3)
 Label(houder, text='').grid(row=4, column=2)
-Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: hardcoding_the_damned_listbox(geleend, geleendeKunstPlaceHolder, gebruikersNaam)).grid(row=5, column=3)
-#Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
+# Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: hardcoding_the_damned_listbox(geleend, geleendeKunstPlaceHolder, gebruikersNaam)).grid(row=5, column=3)
+Button(houder, text= 'Overzicht geleende kunststukken', command= lambda: raise_frame(geleend)).grid(row=5, column=3)
 Label(houder, text='').grid(row=6, column=2)
 Button(houder, text= 'Overzicht van bezoekers',command= lambda: raise_frame(bezoekers)).grid(row=7, column=3)
 Label(houder, text='').grid(row=8, column=2)
@@ -261,14 +267,20 @@ Label(geleend, text='Overzicht geleende kunststukken:').pack(pady=20)
 scrollbar = Scrollbar(geleend)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-list_geleende_kunstwerken = geleendeKunstPlaceHolder
-#mylist2 = Listbox(geleend, yscrollcommand = scrollbar.set )
+list_geleende_kunstwerken = Listbox(geleend, yscrollcommand = scrollbar.set )
+def geleendeKunstKnop():
+    geleendeKunst = Jsonfiles.get_galerijdata()
+    for item in geleendeKunst["Gallerijhouders"]:
+        if item["Gebruikersnaam"] == gebruikersNaam:
+            for stukken in item["Kunst"]:
+                list_geleende_kunstwerken.insert(END, stukken)
 
-get_geleende_items(list_geleende_kunstwerken, gebruikersNaam)
+
+
 
 list_geleende_kunstwerken.pack(expand=1, fill=BOTH)
 scrollbar.config(command = list_geleende_kunstwerken.yview)
-
+Button(geleend, text= "Laad", command= lambda: geleendeKunstKnop()).pack(pady=10)
 Button(geleend, text= 'Terug', command= lambda: raise_frame(houder)).pack(pady=10)
 selectmode = SINGLE
 
