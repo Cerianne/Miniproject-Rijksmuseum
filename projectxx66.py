@@ -103,7 +103,10 @@ mylist.pack(expand=1, fill=BOTH)
 scrollbar.config( command = mylist.yview )
 
 Button(selectie, text= 'Bekijk').pack(side=LEFT, pady=5)
-Button(selectie, text= 'Selecteren').pack(side=RIGHT, pady=5)                   # message box met ticket nummer (of als de persoon al iets heeft gekozen?)
+
+button_1 = Button(selectie, text= 'Selecteren').pack(side=RIGHT, pady=5)
+#button_1.bind('Selecteren', getCode)
+
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
 
@@ -112,13 +115,13 @@ selectmode = SINGLE
 #ticketscherm
 
 Label(ticketscherm, text='').grid(row=0, column=1, pady=15)
-Label(ticketscherm, text='Email-adres').grid(row=1, column=3, padx=135)                           #hier moet ingevoerde email-adres inkomen
+Label(ticketscherm, text= email).grid(row=1, column=3, padx=135)                           #hier moet ingevoerde email-adres inkomen
 Label(ticketscherm, text='').grid(row=2, column=2)
-Label(ticketscherm, text='code').grid(row=3, column=3, pady=10)                           #hier moet de code komen
+Label(ticketscherm, text= code).grid(row=3, column=3, pady=10)                           #hier moet de code komen
 Label(ticketscherm, text='').grid(row=4, column=0)
 Label(ticketscherm, text='Geselecteerde kunststuk:').grid(row=5, column=3)
 Label(ticketscherm, text='').grid(row=6, column=3)
-Label(ticketscherm, text='naam kunststuk').grid(row=7, column=3)                                    #hier moet de naam van het kunststuk komen
+Label(ticketscherm, text= kunststuk).grid(row=7, column=3)                                    #hier moet de naam van het kunststuk komen
 
 
 Label(ticketscherm, text='').grid(row=8, column=3, pady=10)
