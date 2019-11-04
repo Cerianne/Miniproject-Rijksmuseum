@@ -3,5 +3,6 @@ Miniproject Rijksmuseum
 Instructies voor het starten van het programma:
 
 1. Zorg dat python is geinstalleerd
-2. open cmd.exe en ga naar de directory met Code/Miniproject Rijksmuseum/ er in
-3. Type Miniproject_Rijksmuseum.py en druk op enter
+2. Ga naar de map Code/Miniproject Rijksmuseum/
+3. Open Miniproject_Rijksmuseum.py in een IDE(Pycharm of VS)
+4. Run Miniproject_Rijksmuseum.py
