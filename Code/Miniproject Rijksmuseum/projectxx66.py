@@ -3,6 +3,7 @@ from tkinter import messagebox
 import Jsonfiles
 import json
 import IMG_tkinter as img
+import random
 
 gebruikersNaam = ""
 
@@ -78,12 +79,12 @@ def login_gebruiker(email):
 
     if '@' in email and ('.com' or '.nl' in email):
         gebruikersNaam = email
-        persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": []})
+        persoondata["Persoonsgegevens"].append({"Naam" : "", "Email": email, "Kunststukken": [], "Ticketnummer": []})
         Jsonfiles.set_persoondata(persoondata)
         raise_frame(gebruiker)
     else:
         messagebox.showinfo("Helaas","Dit is geen geldig mailadres. Probeer het nog eens!")
- 
+
 
 def set_gebruiker_kunstwerk(kunststuk,gebruiker):
     '''Zorgt dat het kunstwerk bij de persoonsgegevens komt te staan.'''
@@ -92,6 +93,57 @@ def set_gebruiker_kunstwerk(kunststuk,gebruiker):
         if persoongegevens["Email"] == gebruiker:
             persoongegevens["Kunststukken"].append(kunststuk)
             Jsonfiles.set_persoondata(gebruikers)
+
+def getCode(kunststuk, gebruiker):
+    ''''geeft de bezoeker een code voor het bezoeken van de gallerij'''
+    kunst = Jsonfiles.get_kunstdata()
+    persoon = Jsonfiles.get_persoondata()
+
+    randomnr = random.randint(0,9999)
+
+    for item in kunst:
+        if item["Naam"] == kunststuk:
+            messagebox.showinfo("","Uw code is: "+ str(randomnr))
+            for email in persoon["Persoonsgegevens"]:
+                if email["Email"] == gebruiker:
+                    email["Ticketnummer"].append(str(randomnr))
+                    Jsonfiles.set_persoondata(persoon)
+                    break
+
+    naam = ""
+    adres = ""
+    plaats = ""
+
+    galerijdata = Jsonfiles.get_galerijdata()
+    for galleries in galerijdata["Gallerijhouders"]:
+        if kunststuk not in galleries["Kunst"]:
+            adres = "Dit Kunstwerk is in het Rijksmuseum"
+
+        else:
+            naam = galleries["Gebruikersnaam"]
+            adres = galleries["Straatnaam"] + " " + galleries["Huisnr"]
+            plaats = galleries["Stad"]
+            break
+
+    messagebox.showinfo("Hier is het kunstwerk te bekijken:",str("{}\n"
+                            "{}\n"
+                            "{}".format(naam, adres, plaats)))
+
+
+def codeCheck(nummer):
+    '''Kijkt of het code bestaat'''
+    persoon = Jsonfiles.get_persoondata()
+    nummer = str(nummer)
+
+    for data in persoon["Persoonsgegevens"]:
+        print(data["Ticketnummer"])
+        if nummer in data["Ticketnummer"]:
+            print("Deze code is aangemeld")
+            messagebox.showinfo("","Deze code is aangemeld")
+
+
+
+
 
 #Framework
 def raise_frame(frame):
@@ -177,7 +229,7 @@ Label(gebruiker, text= 'Maak een keuze:').grid(row=1, column=3, padx=125, pady=1
 Label(gebruiker, text='').grid(row =2, column=2)
 Button(gebruiker, text= 'Kunststuk selectie', command= lambda: raise_frame(selectie)).grid(row=3, column=3)
 Label(gebruiker, text='').grid(row=4, column=1)
-Button(gebruiker, text= 'Ticket scherm', command= lambda: raise_frame(ticketscherm)).grid(row=5, column=3)
+# Button(gebruiker, text= 'Ticket scherm', command= lambda: raise_frame(ticketscherm)).grid(row=5, column=3)
 Label(gebruiker, text='').grid(row=6, column=3, pady=10)
 
 Button(gebruiker, text= 'Terug', command= lambda: raise_frame(main)).grid(row=7, column=3)
@@ -196,26 +248,27 @@ for kunstwerk in Jsonfiles.get_kunstdata():
 list_selectie_kunstwerken.pack(expand=1, fill=BOTH)
 scrollbar.config(command = list_selectie_kunstwerken.yview)
 
-Button(selectie, text= 'Bekijk', command=lambda: img.showIMG(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()))).pack(side=LEFT, pady=5)
-Button(selectie, text= 'Selecteren', command=lambda: set_gebruiker_kunstwerk(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam)).pack(side=RIGHT, pady=5)
+#Button(selectie, text= 'Bekijk', command=lambda: img.showIMG(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()))).pack(side=LEFT, pady=5)
+Button(selectie, text= 'Selecteren', command=lambda: [set_gebruiker_kunstwerk(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam),
+                                                      getCode(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam)]).pack(pady=5)
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
 selectmode = SINGLE
 
 #ticketscherm
 
-Label(ticketscherm, text='').grid(row=0, column=1, pady=15)
-Label(ticketscherm, text='naam').grid(row=1, column=3, padx=150)                            #TODO hier moet ingevoerde naam inkomen
-Label(ticketscherm, text='').grid(row=2, column=2)
-Label(ticketscherm, text='code').grid(row=3, column=3, pady=10)                             #TODO hier moet de code komen
-Label(ticketscherm, text='').grid(row=4, column=0)
-Label(ticketscherm, text='Geselecteerde kunststuk:').grid(row=5, column=3)
-Label(ticketscherm, text='').grid(row=6, column=3)
-Label(ticketscherm, text= "").grid(row=7, column=3)                                         #TODO hier moet de naam van het kunststuk komen
-
-
-Label(ticketscherm, text='').grid(row=8, column=3, pady=10)
-Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(gebruiker)).grid(row=9, column=3)
+# Label(ticketscherm, text='').grid(row=0, column=1, pady=15)
+# Label(ticketscherm, text='naam').grid(row=1, column=3, padx=150)
+# Label(ticketscherm, text='').grid(row=2, column=2)
+# Label(ticketscherm, text='code').grid(row=3, column=3, pady=10)
+# Label(ticketscherm, text='').grid(row=4, column=0)
+# Label(ticketscherm, text='Geselecteerde kunststuk:').grid(row=5, column=3)
+# Label(ticketscherm, text='').grid(row=6, column=3)
+# Label(ticketscherm, text= "").grid(row=7, column=3)
+#
+#
+# Label(ticketscherm, text='').grid(row=8, column=3, pady=10)
+# Button(ticketscherm, text= 'Terug', command= lambda: raise_frame(selectie)).grid(row=9, column=3)
 
 #galeriehouder
 """Het keuzemenu van de galeriehouder."""
@@ -309,7 +362,7 @@ Label(controle, text='Voer hier de code in:').grid(row=2, column=3, padx=125, pa
 e1 = Entry(controle)
 e1.grid(row=3, column=3)
 Label(controle, text= '').grid(row=4, column=0)
-Button(controle, text='Check').grid(row=5, column=3)
+Button(controle, text='Check', command= lambda: codeCheck(e1.get())).grid(row=5, column=3)
 
 Label(controle, text= '').grid(row=6, column=0)
 Button(controle, text= 'Terug', command= lambda: raise_frame(houder)).grid(row=7, column=3)

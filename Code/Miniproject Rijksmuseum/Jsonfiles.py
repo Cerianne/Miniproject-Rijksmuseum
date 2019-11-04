@@ -41,3 +41,4 @@ def set_kunstdata(kunstdata):
     with open('KunstUitleen.json', 'w') as f:
         kunstdata = json.dumps(kunstdata,indent=2)
         f.writelines(kunstdata)
+
