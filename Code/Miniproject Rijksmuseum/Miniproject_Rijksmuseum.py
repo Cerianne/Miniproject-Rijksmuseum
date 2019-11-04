@@ -136,9 +136,7 @@ def codeCheck(nummer):
     nummer = str(nummer)
 
     for data in persoon["Persoonsgegevens"]:
-        print(data["Ticketnummer"])
         if nummer in data["Ticketnummer"]:
-            print("Deze code is aangemeld")
             messagebox.showinfo("","Deze code is aangemeld")
 
 
