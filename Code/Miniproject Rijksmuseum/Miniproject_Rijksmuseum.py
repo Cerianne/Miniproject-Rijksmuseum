@@ -246,9 +246,9 @@ for kunstwerk in Jsonfiles.get_kunstdata():
 list_selectie_kunstwerken.pack(expand=1, fill=BOTH)
 scrollbar.config(command = list_selectie_kunstwerken.yview)
 
-#Button(selectie, text= 'Bekijk', command=lambda: img.showIMG(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()))).pack(side=LEFT, pady=5)
+Button(selectie, text= 'Bekijk', command=lambda: img.showIMG(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()))).pack(side=LEFT, pady=5)
 Button(selectie, text= 'Selecteren', command=lambda: [set_gebruiker_kunstwerk(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam),
-                                                      getCode(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam)]).pack(pady=5)
+                                                      getCode(list_selectie_kunstwerken.get(list_selectie_kunstwerken.curselection()), gebruikersNaam)]).pack(side=RIGHT, pady=5)
 Label(selectie, text='').pack(fill=X)
 Button(selectie, text= 'Terug', command= lambda: raise_frame(gebruiker)).pack()
 selectmode = SINGLE

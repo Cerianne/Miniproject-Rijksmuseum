@@ -17,7 +17,7 @@ def showIMG(invoer):
     fname = "Gallerij"
     sf = "{}".format(fname)
     root.title(sf)
-    tk_image = ImageTk.PhotoImage(pil_image)
+    tk_image = ImageTk.PhotoImage(pil_image, master=root)
 
     naam = ""
     adres = ""
