@@ -3,35 +3,70 @@
     {
       "Naam": "Klaas",
       "Email": "Klaasdegroot@gmail.com",
-      "kunststukken": []
+      "Kunststukken": [],
+      "Ticketnummer": []
     },
     {
       "Naam": "Micha",
       "Email": "drumstel@gmail.com",
-      "kunststukken": []
+      "Kunststukken": [],
+      "Ticketnummer": []
     },
     {
       "Naam": "Sasha",
       "Email": "sashiiee123@live.nl",
-      "kunststukken": []
+      "Kunststukken": [],
+      "Ticketnummer": []
     },
     {
       "Naam": "",
       "Email": "Appeltje@peer.nl",
-      "Kunststukken": []
+      "Kunststukken": [],
+      "Ticketnummer": []
     },
     {
       "Naam": "",
       "Email": "test@test.com",
-      "Kunststukken": []
+      "Kunststukken": [],
+      "Ticketnummer": []
     },
     {
       "Naam": "",
       "Email": "t@t.com",
       "Kunststukken": [
         "Kan met deksel",
-        "Bureau",
-        "De welvoorziene keuken"
+        "Blauwe ara",
+        "Blauwe ara",
+        "Blauwe ara",
+        "Kan met deksel",
+        "De kindermoord in Bethlehem"
+      ],
+      "Ticketnummer": [
+        "9845",
+        "8321",
+        "1160",
+        "793",
+        "3014"
+      ]
+    },
+    {
+      "Naam": "",
+      "Email": "pietje@deboer.nl",
+      "Kunststukken": [],
+      "Ticketnummer": []
+    },
+    {
+      "Naam": "",
+      "Email": "test@t.com",
+      "Kunststukken": [
+        "Blauwe ara",
+        "Kan met deksel",
+        "De kindermoord in Bethlehem"
+      ],
+      "Ticketnummer": [
+        "3454",
+        "717",
+        "724"
       ]
     }
   ]

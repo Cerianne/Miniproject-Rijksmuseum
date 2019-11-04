@@ -49,10 +49,10 @@ def imgKunstwerk(invoer):
 
 # invoer
 
-#text = input("titel van het kunstwerk: ")
-
-#print(opvragenKunststuk(text))
-#print(imgKunstwerk(text))
+# text = input("titel van het kunstwerk: ")
+# #
+# # print(opvragenKunststuk(text))
+# # print(imgKunstwerk(text))
 
 def kunstSlurp():
     params = urllib.parse.urlencode({
