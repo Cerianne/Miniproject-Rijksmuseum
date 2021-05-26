@@ -12,7 +12,8 @@ def opvragenKunststuk(invoer):
     })
 
     conn = http.client.HTTPSConnection('www.rijksmuseum.nl')
-    conn.request("GET", "/api/nl/collection?key=UYzK8jDV&format=json&" + params)
+    #TODO Add your key here below!
+    conn.request("GET", "/api/nl/collection?key= <INPUT KEY HERE> &format=json&" + params)
 
     response = conn.getresponse()
     responsetext = response.read()
@@ -37,7 +38,8 @@ def imgKunstwerk(invoer):
     })
 
     conn = http.client.HTTPSConnection('www.rijksmuseum.nl')
-    conn.request("GET", "/api/nl/collection?key=UYzK8jDV&format=json&" + params)
+    # TODO Add your key here below!
+    conn.request("GET", "/api/nl/collection?key= <INPUT KEY HERE> &format=json&" + params)
 
     response = conn.getresponse()
     responsetext = response.read()
@@ -63,7 +65,8 @@ def kunstSlurp():
     })
 
     conn = http.client.HTTPSConnection('www.rijksmuseum.nl')
-    conn.request("GET", "/api/nl/collection?key=UYzK8jDV&format=json&" + params)
+    # TODO Add your key here below!
+    conn.request("GET", "/api/nl/collection?key= <INPUT KEY HERE> &format=json&" + params)
 
     response = conn.getresponse()
     responsetext = response.read()
